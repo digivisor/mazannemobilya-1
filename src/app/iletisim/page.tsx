@@ -106,7 +106,7 @@ function ServiceSelect({
       <style jsx>{`
         .custom-select { position: relative; width: 100%; }
         .select-trigger{
-          width:100%; height:48px; border-radius:10px; padding:0 14px;
+          width:100%; height:56px; border-radius:10px; padding:0 14px;
           background:#fff; border:1px solid rgba(0,0,0,.15);
           display:flex; align-items:center; justify-content:space-between;
           transition:border-color .2s, box-shadow .2s;
@@ -114,7 +114,7 @@ function ServiceSelect({
         .select-trigger:focus{ outline:none; border-color:#4f46e5; box-shadow:0 0 0 3px rgba(79,70,229,.15); }
         .trigger-content{ display:flex; align-items:center; gap:10px; font-weight:500; }
         .placeholder{ color:#777; font-weight:400; }
-        .ico,.chev{ width:18px; height:18px; }
+        .ico,.chev{ width:20px; height:20px; }
         .chev{ opacity:.7; }
         .select-list{
           position:absolute; z-index:30; top: calc(100% + 8px); left:0; right:0;
@@ -195,7 +195,7 @@ export default function Page() {
           <div className="half-split">
             {/* Sol: Görsel */}
             <div className="half left">
-              <img src="/contact-side.jpg" alt="İletişim görseli" className="cover" />
+              <img src="https://scontent.cdninstagram.com/v/t51.82787-15/518541264_17846805612521329_162688526009009798_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzY3NjU0OTc3Nzk0OTc3NjEyNTE3ODQ2ODA1NjA2NTIxMzI5.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjgxMHgxNDQwLnNkci5DMyJ9&_nc_ohc=37QHwVE4mrkQ7kNvwFZFZgt&_nc_oc=AdkwDBVQEsDSpbVtLci2-98PcSeEF3HOhWGj4ED1qIF5eyCyEI3c3yIwbL0VBR8UHqahRDVzMn8ck9q5h_x3iVV_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=l0fI0JsttuO5XIlk2MPpgA&oh=00_AfX8nMM_pqI243G72MsjMhsk7xwQ83co3Hp85vt8GdeNQg&oe=68A3D96C" alt="İletişim görseli" className="cover" />
             </div>
 
             {/* Sağ: Form */}
@@ -233,7 +233,6 @@ export default function Page() {
                     <ServiceSelect value={service} onChange={setService} name="service" />
                   </div>
 
-                  {/* Mesaj: kalan yüksekliği komple doldurur */}
                   <div className="field col-12 field--message">
                     <label htmlFor="note">Mesajınız</label>
                     <textarea
@@ -287,7 +286,6 @@ export default function Page() {
           .office-info-text h2{ font-size:22px; margin:0 0 6px; font-weight:700; color:#0a0d2b; }
           .office-info-text p{ margin:0; line-height:1.6; color:#333; }
 
-          /* --- Yarı Görsel / Yarı Form --- */
           .half-split{
             width:100%;
             max-width:1200px;
@@ -301,93 +299,78 @@ export default function Page() {
             min-height:620px;
           }
           .half{ flex:1 1 50%; }
-
           .half.left{ position:relative; background:#f3f4f6; }
           .cover{
             position:absolute; inset:0; width:100%; height:100%;
             object-fit:cover; display:block;
           }
-
-          /* Sağ panel ve iç iskelet tam yükseklik */
           .half.right{
             display:flex; align-items:stretch; justify-content:center; padding:32px;
           }
-     
-
+          .inner {
+            width: 100%;
+            max-width: 560px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+          }
           .wpo-contact-title{ text-align:center; margin:0 0 16px; }
           .wpo-contact-title h2{ font-size:28px; margin:0 0 8px; }
           .wpo-contact-title p{ margin:0; color:#555; }
 
-
-
-.inner {
-  width: 100%;
-  max-width: 560px;
-  display: flex;
-  flex-direction: column;
-  height: 100%; /* Sağ paneli tamamen doldurur */
-}
-
-.contact-form {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0,1fr));
-  gap: 16px;
-  flex: 1;         /* .inner içindeki tüm boşluğu kapla */
-  min-height: 0;   /* Scroll overflow önleme */
-}
-
-.col-6, .col-12 { grid-column: span 12; }
-@media (min-width:900px){
-  .col-6 { grid-column: span 6; }
-  .col-12 { grid-column: span 12; }
-}
-
-/* Mesaj alanı esneme */
-.field--message {
-  display: flex;
-  flex-direction: column;
-  flex: 1;         /* Kalan alanı kapla */
-  min-height: 0;   /* Taşma önleme */
-}
-
-.field--message .textarea {
-  flex: 1;         /* Kalan yüksekliği kapla */
-  height: auto;
-  min-height: 0;
-  padding: 12px 14px;
-  resize: vertical;
-}
-
-
-          .field{ display:flex; flex-direction:column; gap:8px; min-height:0; }
-          .field label{ font-size:14px; color:#374151; font-weight:600; line-height:1; }
-
-          .form-control{
-            width:100%; height:48px; border-radius:10px;
-            border:1px solid rgba(0,0,0,.15); padding:0 14px; background:#fff; box-sizing:border-box;
+          /* === FORM GRID === */
+          .contact-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 8px;
+            flex: 1;
+            min-height: 0;
           }
-          .custom-select .select-trigger{ height:48px; }
-
-          /* Mesaj alanı tüm kalan yüksekliği doldurur */
+          .col-6, .col-12 { grid-column: span 1; }
+          @media (min-width:900px){
+            .contact-form {
+              grid-template-columns: repeat(12, 1fr);
+            }
+            .col-6 { grid-column: span 6; }
+            .col-12 { grid-column: span 12; }
+          }
+          .field { display:flex; flex-direction:column; gap:12px; min-height:0; }
+          .field label{ font-size:15px; color:#374151; font-weight:600; line-height:1; }
+          .form-control{
+            width:100%; height:56px; border-radius:10px;
+            border:1px solid rgba(0,0,0,.15); padding:0 14px; background:#fff; box-sizing:border-box;
+            font-size:17px;
+          }
+          .custom-select .select-trigger{ height:56px; }
+          .field--message, .submit-area {
+            grid-column: 1 / -1;
+          }
           .field--message{
-            min-height:0;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            min-height: 0;
           }
           .field--message .textarea{
-            flex:1;
-            height:auto; min-height:0; /* gerçek esneme */
+            flex: 1;
+            height: auto;
+            min-height: 120px;
             padding:12px 14px;
             resize:vertical;
+            font-size:17px;
           }
-
           .submit-area{
             display:flex; justify-content:center; align-items:center; margin-top:8px;
           }
-          .theme-btn{ padding:12px 24px; border-radius:10px; background:#111827; color:#fff; border:0; }
-
+          .theme-btn{ padding:14px 30px; border-radius:10px; background:#111827; color:#fff; border:0; font-size:18px; font-weight:600; }
           @media (max-width:900px){
             .half-split{ flex-direction:column; min-height:unset; }
             .half.left{ height:260px; }
             .half.right{ padding:20px 12px 18px; }
+            .contact-form { gap:16px; }
+            .form-control{ height:52px; font-size:16px; }
+            .field--message .textarea { min-height:80px; }
           }
         `}</style>
       </section>
@@ -424,7 +407,7 @@ export default function Page() {
             filter: none !important;
             -webkit-filter: none !important;
             mix-blend-mode: normal !important;
-            opacity: 1 !important
+            opacity: 1 !important;
           }
           .wpo-contact-map .map-embed iframe{
             position:absolute; inset:0; width:100%; height:100%; border:0;
