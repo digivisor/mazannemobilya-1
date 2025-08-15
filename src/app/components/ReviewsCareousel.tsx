@@ -139,9 +139,8 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
 
       <style jsx global>{`
         .reviews { padding: clamp(32px, 6vw, 72px) 0; background:
-          radial-gradient(1200px 500px at 95% 10%, rgba(99,102,241,.06), transparent 60%),
-          radial-gradient(1000px 500px at 0% 80%, rgba(16,185,129,.06), transparent 60%),
-          linear-gradient(180deg, #fafafa, #ffffff);
+   
+          linear-gradient(180deg, #f2f1e2ff, #e9eef3ff);
         }
         .reviews .container { width:min(1200px,92vw); margin:0 auto; }
         .reviews .head { display:grid; grid-template-columns:42px 1fr 42px; align-items:center; gap:14px; margin-bottom:18px; }
@@ -168,7 +167,7 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
           background:rgba(255,255,255,.75); backdrop-filter: blur(10px);
           border:1px solid rgba(0,0,0,.06); border-radius:18px;
           padding:18px 16px 16px; min-height:170px;
-          box-shadow:0 10px 22px rgba(0,0,0,.07);
+        
           transition: transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s ease, border-color .3s ease;
         }
         .reviews .rc-card:is(:hover, :focus-within){
@@ -212,22 +211,7 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
           pointer-events: none;
           z-index: 5;
         }
-        .reviews .viewport::before {
-          left: 0;
-          background: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0.95),
-            rgba(255, 255, 255, 0)
-          );
-        }
-        .reviews .viewport::after {
-          right: 0;
-          background: linear-gradient(
-            to left,
-            rgba(255, 255, 255, 0.95),
-            rgba(255, 255, 255, 0)
-          );
-        }
+        
       `}</style>
     </section>
   );
@@ -281,7 +265,7 @@ export function InstagramGrid({ heading = "Instagram’da Mazanne Mobilya", limi
       <div className="container">
         <div className="ig-head">
           <h2 className="ig-title">{heading}</h2>
-          <a className="ig-cta" href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram'a git">
+          <a className="ig-cta" href="https://instagram.com/mazanne.mobilya" target="_blank" rel="noopener noreferrer" aria-label="Instagram'a git">
             <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
               <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="1.6" fill="none" />
               <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1.6" fill="none" />
