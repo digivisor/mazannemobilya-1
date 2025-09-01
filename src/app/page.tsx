@@ -414,7 +414,7 @@ export default function Page() {
                                 </button>
 
                                 <ul className="sub-menu" style={{ maxHeight: mobileCatsOpen ? 600 : 0 }}>
-                                  <li><a href="/kategoriler/oturma-odasi">Oturma Odası</a></li>
+                                  <li><a href="/kategoriler/oturma-grubu">Oturma Grubu</a></li>
                                   <li><a href="/kategoriler/yemek-odasi">Yemek Odası</a></li>
                                   <li><a href="/kategoriler/yatak-odasi">Yatak Odası</a></li>
                                   <li><a href="/kategoriler/genc-cocuk-odasi">Çocuk & Genç Odası</a></li>
@@ -489,7 +489,7 @@ export default function Page() {
                         <li className="menu-item-has-children">
                           <a href="/kategoriler">Kategoriler</a>
                           <ul className="sub-menu">
-                            <li><a href="/kategoriler/oturma-odasi">Oturma Odası</a></li>
+                            <li><a href="/kategoriler/oturma-grubu">Oturma Grubu</a></li>
                             <li><a href="/kategoriler/yemek-odasi">Yemek Odası</a></li>
                             <li><a href="/kategoriler/yatak-odasi">Yatak Odası</a></li>
                             <li><a href="/kategoriler/genc-cocuk-odasi">Çocuk & Genç Odası</a></li>
