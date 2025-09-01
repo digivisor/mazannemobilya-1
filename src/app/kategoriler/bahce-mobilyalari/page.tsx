@@ -5,6 +5,7 @@ import { DM_Sans } from "next/font/google";
 import { ChevronDown, ShieldCheck, Sun, Droplets } from "lucide-react";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
+import InstagramGallery from "@/app/components/InstagramGallery";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -295,6 +296,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <InstagramGallery tag="ŞıkDetaylar" limit={5} />
 
       <Footer />
 

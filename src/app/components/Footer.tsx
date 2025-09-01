@@ -44,10 +44,11 @@ export default function Footer() {
                 <div className="social-widget">
                   <ul>
                     <li>
-                      <a href="/home#" aria-label="Facebook" className="soc"><Facebook size={18} strokeWidth={2} /></a>
-                      <a href="/home#" aria-label="Twitter" className="soc"><Twitter size={18} strokeWidth={2} /></a>
-                      <a href="/home#" aria-label="LinkedIn" className="soc"><Linkedin size={18} strokeWidth={2} /></a>
-                      <a href="/home#" aria-label="Instagram" className="soc"><Instagram size={18} strokeWidth={2} /></a>
+                     
+                      <a href="https://www.facebook.com/profile.php?id=61578344554695" target="_blank" aria-label="Facebook" className="soc"><Facebook size={18} strokeWidth={2} /></a>
+                      <a href="/" target="_blank" aria-label="Twitter" className="soc"><Twitter size={18} strokeWidth={2} /></a>
+                      {/* <a href="/" target="_blank" aria-label="LinkedIn" className="soc"><Linkedin size={18} strokeWidth={2} /></a> */}
+                      <a href="https://www.instagram.com/mazanne.mobilya" target="_blank" aria-label="Instagram" className="soc"><Instagram size={18} strokeWidth={2} /></a>
                     </li>
                   </ul>
                 </div>
@@ -60,7 +61,7 @@ export default function Footer() {
                 <div className="widget-title"><h3>İletişim</h3></div>
                 <ul>
                   <li>mazannemobilya@gmail.com</li>
-                  <li>+905551957476</li>
+                  <li>+90 505 240 68 58</li>
                   <li>Yükseliş, Mehmet Akif Cd. No:88/1,</li>
                   <li>07025 Kepez/Antalya</li>
                 </ul>
@@ -137,7 +138,7 @@ export default function Footer() {
         }
         .wpo-site-footer{ background:#0b0b0b; color:#fff; }
         .wpo-upper-footer{ padding:48px 0 20px; }
-        .wpo-lower-footer{ border-top:1px solid rgba(255,255,255,.08); padding:14px 0; }
+        .wpo-lower-footer{ border-top:1px padding:14px 0; }
         .wpo-lower-footer .right{
           display:flex; gap:18px; justify-content:flex-end; flex-wrap:wrap; margin:0; padding:0;
         }

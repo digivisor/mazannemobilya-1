@@ -5,6 +5,7 @@ import { DM_Sans } from "next/font/google";
 import { ChevronDown, ShieldCheck, Ruler, Layers, Expand } from "lucide-react";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
+import InstagramGallery from "@/app/components/InstagramGallery";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -288,7 +289,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+    <InstagramGallery tag="ŞıkDetaylar" limit={5} />
       <Footer />
 
       {/* ===== ANİMASYON + HOVER (Hero tilt + CTA kontrast fix) ===== */}
@@ -331,22 +332,44 @@ export default function Page() {
         .bullet { margin: 10px 0 18px; padding-left: 18px; }
         .bullet li { margin: 6px 0; }
 
-        .split-cta{
-          display:inline-block; margin-top:4px; border:1px solid #111; border-radius:999px;
-          padding:12px 20px; color:#111 !important; background:transparent !important;
-          position:relative; overflow:hidden;
-          transition: box-shadow .25s ease, transform .25s ease, background .25s ease, color .25s ease, border-color .25s ease;
+           .split-cta {
+          display: inline-block;
+          margin-top: 4px;
+          border: 1px solid #111;
+          border-radius: 999px;
+          padding: 12px 20px;
+          color: #111 !important;       /* yazı beyazlaşmasın diye zorunlu */
+          background: transparent !important;
+          position: relative;
+          overflow: hidden;
+          transition: box-shadow 0.25s ease, transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
         }
-        .split-cta:hover, .split-cta:focus-visible{
-          transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,.08);
-          background:#111 !important; color:#fff !important; border-color:#111 !important;
+        .split-cta:hover,
+        .split-cta:focus-visible {
+          transform: translateY(-2px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+          background: #111 !important;   /* koyu arka plan */
+          color: #fff !important;        /* beyaz metin */
+          border-color: #111 !important;
         }
-        .split-cta::after{
-          content:""; position:absolute; inset:0;
-          background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.35) 50%, transparent 100%);
-          transform: translateX(-120%); transition: transform .6s ease;
+        .split-cta::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            120deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.35) 50%,
+            transparent 100%
+          );
+          transform: translateX(-120%);
+          transition: transform 0.6s ease;
         }
-        .split-cta:hover::after, .split-cta:focus-visible::after{ transform: translateX(120%); }
+        .split-cta:hover::after,
+        .split-cta:focus-visible::after {
+          transform: translateX(120%);
+        }
+
 
         .split-media{
           perspective: 800px; --rx:0deg; --ry:0deg; --tz:0px;

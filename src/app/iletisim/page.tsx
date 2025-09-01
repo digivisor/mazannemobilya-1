@@ -316,8 +316,8 @@ export default function ContactPage() {
         <div className="info-grid" style={container}>
           <div className="info-grid-inner">
             <InfoCard icon={MapPin} title="Adres" lines={["Yeşil Göl Caddesi No:7", "Antalya, Türkiye"]} />
-            <InfoCard icon={Mail} title="E-posta" lines={["ornekmail1@gmail.com", "ornekmail2@gmail.com"]} />
-            <InfoCard icon={Phone} title="Telefon" lines={["+90 555 123 45 67", "+90 555 987 65 43"]} />
+            <InfoCard icon={Mail} title="E-posta" lines={["mazannemobilya@gmail.com", "info@mazannemobilya.com"]} />
+            <InfoCard icon={Phone} title="Telefon" lines={["+90 505 240 68 58", "+90 537 298 59 61"]} />
           </div>
         </div>
       </section>
@@ -330,7 +330,7 @@ export default function ContactPage() {
             <div className="split-left">
               <div style={{ position: "relative", width: "100%", height: "100%", minHeight: 320, borderRadius: 16, overflow: "hidden", border: "1px solid rgba(0,0,0,.1)", background: "#f3f4f6" }}>
                 <img
-                  src="https://scontent.cdninstagram.com/v/t51.82787-15/518541264_17846805612521329_162688526009009798_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzY3NjU0OTc3Nzk0OTc3NjEyNTE3ODQ2ODA1NjA2NTIxMzI5.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjgxMHgxNDQwLnNkci5DMyJ9&_nc_ohc=37QHwVE4mrkQ7kNvwFZFZgt&_nc_oc=AdkwDBVQEsDSpbVtLci2-98PcSeEF3HOhWGj4ED1qIF5eyCyEI3c3yIwbL0VBR8UHqahRDVzMn8ck9q5h_x3iVV_&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=l0fI0JsttuO5XIlk2MPpgA&oh=00_AfX8nMM_pqI243G72MsjMhsk7xwQ83co3Hp85vt8GdeNQg&oe=68A3D96C"
+                  src="/mazanneiletisim.jpg"
                   alt="İletişim görseli"
                   style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: 'fill' }}
                 />

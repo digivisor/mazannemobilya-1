@@ -50,13 +50,13 @@ export default function Header() {
             <div className="col-lg-8 col-md-8 col-12">
               <ul className="contact-info">
                 <li>
-                  <a href="tel:+869968236">
-                    Numara:<span> +869 968 236</span>
+                  <a href="tel:+90 505 240 68 58">
+                    Numara:<span> +90 505 240 68 58</span>
                   </a>
                 </li>
                 <li>
                   <span>Email: </span>
-                  <span>bliize@gmail.com</span>
+                  <span>mazannemobilya@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -64,10 +64,10 @@ export default function Header() {
             <div className="col-lg-4 col-md-4 col-12">
               <div className="contact-into">
                 <ul className="social-media">
-                  <li><a href="/" aria-label="Facebook"><Facebook size={18} strokeWidth={2} /></a></li>
-                  <li><a href="/" aria-label="Twitter / X"><Twitter size={18} strokeWidth={2} /></a></li>
-                  <li><a href="/" aria-label="LinkedIn"><Linkedin size={18} strokeWidth={2} /></a></li>
-                  <li><a href="/" aria-label="Instagram"><Instagram size={18} strokeWidth={2} /></a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=61578344554695" target="_blank" aria-label="Facebook"><Facebook size={18} strokeWidth={2} /></a></li>
+                  <li><a href="/" target="_blank" aria-label="Twitter / X"><Twitter size={18} strokeWidth={2} /></a></li>
+                  {/* <li><a href="/" target="_blank" aria-label="LinkedIn"><Linkedin size={18} strokeWidth={2} /></a></li> */}
+                  <li><a href="https://www.instagram.com/mazanne.mobilya" target="_blank" aria-label="Instagram"><Instagram size={18} strokeWidth={2} /></a></li>
                 </ul>
               </div>
             </div>

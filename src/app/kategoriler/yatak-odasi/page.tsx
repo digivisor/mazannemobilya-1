@@ -299,7 +299,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-<InstagramGallery />
+      <InstagramGallery tag="evdekorasyonu" limit={5} />
 
       <Footer />
 
@@ -360,18 +360,43 @@ export default function Page() {
         .split-text p { margin: 0 0 14px; color: #2b2b2b; }
         .bullet { margin: 10px 0 18px; padding-left: 18px; }
         .bullet li { margin: 6px 0; }
-        .split-cta {
-          display: inline-block; margin-top: 4px; border: 1px solid #000; border-radius: 999px;
-          padding: 12px 20px; color: #000; position: relative; overflow: hidden;
-          transition: box-shadow .25s ease, transform .25s ease;
+         .split-cta {
+          display: inline-block;
+          margin-top: 4px;
+          border: 1px solid #111;
+          border-radius: 999px;
+          padding: 12px 20px;
+          color: #111 !important;       /* yazı beyazlaşmasın diye zorunlu */
+          background: transparent !important;
+          position: relative;
+          overflow: hidden;
+          transition: box-shadow 0.25s ease, transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
         }
-        .split-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,.08); }
-        .split-cta::after{
-          content:""; position:absolute; inset:0;
-          background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.3) 50%, transparent 100%);
-          transform: translateX(-120%); transition: transform .6s ease;
+        .split-cta:hover,
+        .split-cta:focus-visible {
+          transform: translateY(-2px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+          background: #111 !important;   /* koyu arka plan */
+          color: #fff !important;        /* beyaz metin */
+          border-color: #111 !important;
         }
-        .split-cta:hover::after{ transform: translateX(120%); }
+        .split-cta::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            120deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.35) 50%,
+            transparent 100%
+          );
+          transform: translateX(-120%);
+          transition: transform 0.6s ease;
+        }
+        .split-cta:hover::after,
+        .split-cta:focus-visible::after {
+          transform: translateX(120%);
+        }
 
         .split-media {
           perspective: 800px;
