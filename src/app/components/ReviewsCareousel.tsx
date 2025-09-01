@@ -311,10 +311,30 @@ export function InstagramGrid({ heading = "Instagram’da Mazanne Mobilya", limi
         .ig .grid { display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px; }
         @media (max-width:900px){ .ig .grid{ grid-template-columns:repeat(3, minmax(0,1fr)); gap:10px; } }
         @media (max-width:740px){ .ig .grid{ grid-template-columns:repeat(2, minmax(0,1fr)); gap:8px; } }
-        .ig .card { position:relative; display:block; aspect-ratio:1/1; border-radius:16px; overflow:hidden; background:#f4f4f4; border:1px solid rgba(0,0,0,.06); transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
-        .ig .card:hover{ transform:translateY(-3px); box-shadow:0 16px 36px rgba(0,0,0,0.12); border-color:rgba(0,0,0,0.12); }
-        .ig .card img{ width:100%; height:100%; object-fit:cover; display:block; transition: transform .35s ease; }
-        .ig .card:hover img{ transform:scale(1.04); }
+          .ig .card:hover{ transform:translateY(-3px); box-shadow:0 16px 36px rgba(0,0,0,0.12); border-color:rgba(0,0,0,0.12); }
+       .ig .card {
+  position: relative;
+  display: block;
+  aspect-ratio: 4/5;   /* Instagram post oranı */
+  border-radius: 1px;
+  overflow: hidden;
+  background: #f4f4f4;
+  border: 1px solid rgba(0,0,0,.06);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+
+.ig .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Kartı tamamen doldurur */
+}
+
+
+.ig .card:hover img {
+  transform: scale(1.02); /* Hover efekti çok hafif olsun */
+}
+
         .ig .overlay{ position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; gap:6px; padding:12px; background:linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,.55)); color:#fff; opacity:0; transition:opacity .25s ease; }
         .ig .card:hover .overlay{ opacity:1; }
         .ig .caption{ font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; font-size:13px; line-height:1.45; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }

@@ -23,16 +23,17 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const limit = Math.min(12, Math.max(1, Number(searchParams.get('limit') || '6')));
 
-  const USER_ID = process.env.IG_USER_ID;          // ör: 1784..........
-  const ACCESS_TOKEN = process.env.IG_ACCESS_TOKEN; // Long-lived token
+  const IG_GRAPH_USER_ID = process.env.IG_GRAPH_USER_ID;          // ör: 1784..........
+  const IG_PAGE_TOKEN = process.env.IG_PAGE_TOKEN; // Long-lived token
 
-  if (!USER_ID || !ACCESS_TOKEN) {
+  if (!IG_GRAPH_USER_ID || !IG_PAGE_TOKEN) {
     return NextResponse.json({ error: 'MISSING_ENV' }, { status: 500 });
   }
 
-  const url = `https://graph.instagram.com/${USER_ID}/media` +
-    `?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp` +
-    `&access_token=${ACCESS_TOKEN}&limit=${limit * 2}`;
+const url = `https://graph.facebook.com/v23.0/${IG_GRAPH_USER_ID}/media` +
+  `?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp,children{media_type,media_url,thumbnail_url}` +
+  `&access_token=${IG_PAGE_TOKEN}&limit=${limit}`;
+
 
   try {
     const res = await fetch(url, { next: { revalidate } });
@@ -59,3 +60,4 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: 'SERVER_ERROR', details: e?.message }, { status: 500 });
   }
 }
+  
