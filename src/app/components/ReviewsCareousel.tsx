@@ -222,7 +222,7 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
 // - Kendi içinde fetch yapar: GET /api/instagram?limit=6 (kullanıcının verdiği gibi)
 // - Eğer veri gelmezse IG_FALLBACK kullanır
 // ============================================================================
-export type IgPost = { id: string; image: string; permalink: string; caption?: string; timestamp?: string };
+export type IgPost = { id: string; image: string; permalink: string; caption?: string; timestamp?: string; media_type: 'IMAGE' | 'VIDEO' | 'CAROUSEL_ALBUM' };
 
 export function InstagramGrid({ heading = "Instagram’da Mazanne Mobilya", limit = 6 }: { heading?: string; limit?: number }) {
   const [posts, setPosts] = useState<IgPost[]>([]);
@@ -231,12 +231,12 @@ export function InstagramGrid({ heading = "Instagram’da Mazanne Mobilya", limi
 
   // FALLBACK görseller (kullanıcının paylaştıkları)
   const IG_FALLBACK: IgPost[] = [
-    { id: "f1", image: "/instagram3.jpg", permalink: "#", caption: "Mazanne – özel tasarım" },
-    { id: "f2", image: "/instagram2.jpg", permalink: "#", caption: "Zamansız detaylar" },
-    { id: "f3", image: "/instagram7.png", permalink: "#", caption: "Dayanıklılık ve konfor" },
-    { id: "f4", image: "/instagram5.jpg", permalink: "#", caption: "Sıcak dokular" },
-    { id: "f5", image: "/instagram6.jpg", permalink: "#", caption: "Oturma odası ilhamı" },
-    { id: "f6", image: "/instagram1.jpg", permalink: "#", caption: "Yemek alanı önerisi" },
+    { id: "f1", image: "/instagram3.jpg", permalink: "#", caption: "Mazanne – özel tasarım", media_type: 'IMAGE' },
+    { id: "f2", image: "/instagram2.jpg", permalink: "#", caption: "Zamansız detaylar" , media_type: 'IMAGE'},
+    { id: "f3", image: "/instagram7.png", permalink: "#", caption: "Dayanıklılık ve konfor", media_type: 'IMAGE' },
+    { id: "f4", image: "/instagram5.jpg", permalink: "#", caption: "Sıcak dokular", media_type: 'IMAGE' },
+    { id: "f5", image: "/instagram6.jpg", permalink: "#", caption: "Oturma odası ilhamı", media_type: 'IMAGE' },
+    { id: "f6", image: "/instagram1.jpg", permalink: "#", caption: "Yemek alanı önerisi", media_type: 'IMAGE' },
   ];
 
   // ---- FETCH (kullanıcının verdiği endpointlerle) ----
@@ -284,10 +284,15 @@ export function InstagramGrid({ heading = "Instagram’da Mazanne Mobilya", limi
               <a key={p.id} href={p.permalink} target="_blank" rel="noopener noreferrer" className="card" aria-label="Instagram gönderisi">
                 <img src={p.image} alt={p.caption || "Instagram post"} loading="lazy" decoding="async" />
                 <span className="overlay">
-                  <span className="chip">
-                    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
-                    <em>İzle</em>
-                  </span>
+                 {p.media_type === "VIDEO" && (
+  <span className="chip">
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M8 5v14l11-7z" fill="currentColor"/>
+    </svg>
+    <em>İzle</em>
+  </span>
+)}
+
                   {p.caption && <span className="caption">{p.caption}</span>}
                 </span>
               </a>

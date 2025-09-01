@@ -48,12 +48,13 @@ const url = `https://graph.facebook.com/v23.0/${IG_GRAPH_USER_ID}/media` +
       .filter(i => Boolean(i.image))
       .slice(0, limit)
       .map(i => ({
-        id: i.id,
-        image: i.image,
-        permalink: i.permalink,
-        caption: i.caption || '',
-        timestamp: i.timestamp,
-      }));
+  id: i.id,
+  image: i.image,
+  permalink: i.permalink,
+  caption: i.caption || '',
+  timestamp: i.timestamp,
+  media_type: i.media_type, 
+}))
 
     return NextResponse.json({ posts });
   } catch (e: any) {
