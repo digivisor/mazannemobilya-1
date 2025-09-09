@@ -330,9 +330,9 @@ export default function ContactPage() {
             <div className="split-left">
               <div style={{ position: "relative", width: "100%", height: "100%", minHeight: 320, borderRadius: 16, overflow: "hidden", border: "1px solid rgba(0,0,0,.1)", background: "#f3f4f6" }}>
                 <img
-                  src="/mazanneiletisim.jpg"
+                  src="/mazanneiletisim_resized.jpg"
                   alt="İletişim görseli"
-                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: 'fill' }}
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%",  }}
                 />
               </div>
             </div>

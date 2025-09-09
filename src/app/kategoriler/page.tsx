@@ -127,7 +127,7 @@ els.forEach((el) => {
                 style={{ color: "transparent" }}
               />
               <div className="content">
-                <h2><a href="/kategoriler/oturma-grubu">Oturma Odası</a></h2>
+                <h2><a href="/kategoriler/oturma-grubu">Oturma Grubu</a></h2>
                 <span>Konfor ve akış için yerleşim, kumaş & renk önerileri.</span>
               </div>
               </a>

@@ -58,12 +58,10 @@ export default function InstagramGallery({
 
   return (
     <section className="ig-gallery container">
-      <h3
-        className="sec-title"
-        style={{ textAlign: "center", marginBottom: "20px", fontWeight: "bold" }}
-      >
-        Instagram’da #{tag}
-      </h3>
+      <h3 className="sec-title">
+  Instagram’da #{tag}
+</h3>
+
       <div className="grid">
         {displayPosts.map((p) => (
           <a
@@ -161,6 +159,12 @@ export default function InstagramGallery({
           transform: translateY(-2px);
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
+.sec-title {
+  font-family: var(--font-dm), sans-serif !important;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
         .insta-user {
           display: flex;
