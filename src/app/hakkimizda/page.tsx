@@ -197,7 +197,7 @@ export default function Page() {
                 <ol>
                   <li>Hakkımızda</li>
                 </ol>
-                <h2 className="fade_bottom">İç Mimarlık & Mimari Tasarım</h2>
+                <h2 className="fade_bottom">Zamansız Tasarımlar, Dayanıklı Mobilyalar</h2>
               </div>
             </div>
           </div>

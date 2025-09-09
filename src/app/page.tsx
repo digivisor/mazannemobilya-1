@@ -29,6 +29,7 @@ export default function Page() {
   const [isDragging, setIsDragging] = useState(false);
   const wrapRef = useRef<HTMLElement | null>(null);
   const dragStartX = useRef<number | null>(null);
+const [showVideo, setShowVideo] = useState(false);
 
   // --- MOBILE HEADER STATE (drawer) ---
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -793,7 +794,9 @@ export default function Page() {
 
               <div className="video-wrap">
                 <div className="video-holder">
-                  <button className="video-btn">
+                  <button 
+                  onClick={() => setShowVideo(true)}
+                  className="video-btn">
                     <svg width="70" height="70" viewBox="0 0 70 70" fill="none">
                       <circle cx="35" cy="35" r="35" fill="white"></circle>
                       <path d="M48.5 32.9019C50.5 34.0566 50.5 36.9434 48.5 38.0981L31.25 48.0574C29.25 49.2121 26.75 47.7687 26.75 45.4593L26.75 25.5407C26.75 23.2313 29.25 21.7879 31.25 22.9426L48.5 32.9019Z" fill="black"></path>
@@ -999,8 +1002,94 @@ export default function Page() {
 
 <ReviewsCarousel title="Ne Dediler?" limit={6} />
 <InstagramGrid heading="Instagram’da Mazanne Mobilya" limit={6} />
+{showVideo && (
+  <div
+    className="video-modal-backdrop"
+    onClick={() => setShowVideo(false)}
+  >
+    <div
+      className="video-modal"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* Kapatma butonu */}
+      <button
+        className="video-close-btn"
+        onClick={() => setShowVideo(false)}
+        aria-label="Kapat"
+      >
+        ×
+      </button>
 
-      
+      <video
+        src="/mazanne.mp4"
+        autoPlay
+        playsInline
+        controls
+        controlsList="nodownload noplaybackrate nofullscreen"
+        disablePictureInPicture
+      />
+    </div>
+
+    <style jsx>{`
+      .video-modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.75);
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+      }
+      .video-modal {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 9/16;
+        background: black;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .video-modal video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        transform: rotate(270deg) scale(0.56);
+        transform-origin: center center;
+      }
+      .video-close-btn {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: rgba(0, 0, 0, 0.6);
+        border: none;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+        line-height: 1;
+        z-index: 30000; /* video’nun da üstünde */
+      }
+      .video-close-btn:hover {
+        background: rgba(0, 0, 0, 0.85);
+      }
+
+      /* Timeline ve süreyi gizle */
+      video::-webkit-media-controls-timeline,
+      video::-webkit-media-controls-current-time-display,
+      video::-webkit-media-controls-time-remaining-display {
+        display: none !important;
+      }
+    `}</style>
+  </div>
+)}
+
+
+
 
       {/* FOOTER */}
       <Footer/>

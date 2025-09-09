@@ -158,7 +158,7 @@ els.forEach((el) => {
             <div className="project-card fade_bottom">
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t51.2885-15/535805325_17852684562521329_2500007029990257046_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEzNTB4MTY4OC5zZHIuZjgyNzg3LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QF8EtL3EobWuqLwMbcgECNzDG_4JpP2ezY807-cXBkbM2aAr5tF_T4p3WfhXt79vExqqIZffuRcbHjFnGkY0ZKp&_nc_ohc=7KsDZPROHIkQ7kNvwG72Nt8&_nc_gid=Hk5evh4vw-C56HBEzK2ZLw&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzcwMzQwNzg2MzM0NjA3OTIwNg%3D%3D.3-ccb7-5&oh=00_AfZrgubR08yg_QSaLUciDscYX1Cvp3jR_sfR2h9LwDgluw&oe=68C58CAF&_nc_sid=fc8dfb"
+                srcSet="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST7Ju1ysdz5ZSHG0lgDTrWSjXZ3tvrns9uJD-cJMtXzTi3DvfNPVoQt85gK3KSEajqGYX02xQC0ULO2AQ5BfzlEsMqIl5WCBnlnWAeCMmWFzaZkEfLf4PnmQ"
                 width={940}
                 height={560}
                 decoding="async"
@@ -167,7 +167,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t51.2885-15/535805325_17852684562521329_2500007029990257046_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEzNTB4MTY4OC5zZHIuZjgyNzg3LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QF8EtL3EobWuqLwMbcgECNzDG_4JpP2ezY807-cXBkbM2aAr5tF_T4p3WfhXt79vExqqIZffuRcbHjFnGkY0ZKp&_nc_ohc=7KsDZPROHIkQ7kNvwG72Nt8&_nc_gid=Hk5evh4vw-C56HBEzK2ZLw&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzcwMzQwNzg2MzM0NjA3OTIwNg%3D%3D.3-ccb7-5&oh=00_AfZrgubR08yg_QSaLUciDscYX1Cvp3jR_sfR2h9LwDgluw&oe=68C58CAF&_nc_sid=fc8dfb"
+                srcSet="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST7Ju1ysdz5ZSHG0lgDTrWSjXZ3tvrns9uJD-cJMtXzTi3DvfNPVoQt85gK3KSEajqGYX02xQC0ULO2AQ5BfzlEsMqIl5WCBnlnWAeCMmWFzaZkEfLf4PnmQ"
                 width={940}
                 height={560}
                 decoding="async"
