@@ -516,7 +516,7 @@ const [showVideo, setShowVideo] = useState(false);
                           </ul>
                         </li>
 
-                        <li className="menu-item-has-children"><a href="/iletisim">İletişim</a></li>
+                      
                       </ul>
                     </div>
                   </div>

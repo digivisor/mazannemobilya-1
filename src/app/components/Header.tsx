@@ -230,7 +230,7 @@ export default function Header() {
                       </ul>
                     </li>
 
-                    <li><a href="/iletisim">İletişim</a></li>
+                   
                   </ul>
                 </div>
               </div>
