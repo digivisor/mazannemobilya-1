@@ -108,7 +108,7 @@ els.forEach((el) => {
             <div className="project-card fade_bottom">
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/518380635_122103634004944818_5043005245250970465_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QHf97mOSFXaDcT6hdPS28s79f2QXJEcjvUvO9vW9Siv8sDBcWGPOnTx1vjwS8Tfc68kcrf8_L6Y_nsU4DCyKqg_&_nc_ohc=mSpiBgaNoYMQ7kNvwH2Vw02&_nc_gid=MaDeGJGws4bU9BsWykR-cw&edm=APoiHPcAAAAA&ccb=7-5&ig_cache_key=MzY4MTcyMzUyMjU2NTYyOTQ1OA%3D%3D.3-ccb7-5&oh=00_AfVNvkmqkLbUHV_2WFXJ0sjR2BawU7ZQ9NEmJ-TnsYHoXw&oe=689F9765&_nc_sid=22de04"
+                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -117,7 +117,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/518380635_122103634004944818_5043005245250970465_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QHf97mOSFXaDcT6hdPS28s79f2QXJEcjvUvO9vW9Siv8sDBcWGPOnTx1vjwS8Tfc68kcrf8_L6Y_nsU4DCyKqg_&_nc_ohc=mSpiBgaNoYMQ7kNvwH2Vw02&_nc_gid=MaDeGJGws4bU9BsWykR-cw&edm=APoiHPcAAAAA&ccb=7-5&ig_cache_key=MzY4MTcyMzUyMjU2NTYyOTQ1OA%3D%3D.3-ccb7-5&oh=00_AfVNvkmqkLbUHV_2WFXJ0sjR2BawU7ZQ9NEmJ-TnsYHoXw&oe=689F9765&_nc_sid=22de04"
+                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -158,7 +158,7 @@ els.forEach((el) => {
             <div className="project-card fade_bottom">
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/519653102_122106035516944818_1243802248604637088_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QH_QHfX5NAqi8VrYe6pNFKr9vX-n1PeJY07hUsG1qKZHUk3zuTVwjlw-a67U90Psvuo5r9RBg61_iGtsokJweIt&_nc_ohc=JjXT1bNQGnAQ7kNvwGE4ZXX&_nc_gid=P3AD8QHcXO3JBnuFZJvK-A&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzY4MzczNjYxNDMxNzY4MDY2Ng%3D%3D.3-ccb7-5&oh=00_AfUw86qTks1TaDf7FcV7fQuqEq195MPAzFZWIBB7SK9q8g&oe=689F98EB&_nc_sid=10d13b"
+                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t51.2885-15/535805325_17852684562521329_2500007029990257046_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEzNTB4MTY4OC5zZHIuZjgyNzg3LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QF8EtL3EobWuqLwMbcgECNzDG_4JpP2ezY807-cXBkbM2aAr5tF_T4p3WfhXt79vExqqIZffuRcbHjFnGkY0ZKp&_nc_ohc=7KsDZPROHIkQ7kNvwG72Nt8&_nc_gid=Hk5evh4vw-C56HBEzK2ZLw&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzcwMzQwNzg2MzM0NjA3OTIwNg%3D%3D.3-ccb7-5&oh=00_AfZrgubR08yg_QSaLUciDscYX1Cvp3jR_sfR2h9LwDgluw&oe=68C58CAF&_nc_sid=fc8dfb"
                 width={940}
                 height={560}
                 decoding="async"
@@ -167,7 +167,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/519653102_122106035516944818_1243802248604637088_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QH_QHfX5NAqi8VrYe6pNFKr9vX-n1PeJY07hUsG1qKZHUk3zuTVwjlw-a67U90Psvuo5r9RBg61_iGtsokJweIt&_nc_ohc=JjXT1bNQGnAQ7kNvwGE4ZXX&_nc_gid=P3AD8QHcXO3JBnuFZJvK-A&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzY4MzczNjYxNDMxNzY4MDY2Ng%3D%3D.3-ccb7-5&oh=00_AfUw86qTks1TaDf7FcV7fQuqEq195MPAzFZWIBB7SK9q8g&oe=689F98EB&_nc_sid=10d13b"
+                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t51.2885-15/535805325_17852684562521329_2500007029990257046_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEzNTB4MTY4OC5zZHIuZjgyNzg3LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=101&_nc_oc=Q6cZ2QF8EtL3EobWuqLwMbcgECNzDG_4JpP2ezY807-cXBkbM2aAr5tF_T4p3WfhXt79vExqqIZffuRcbHjFnGkY0ZKp&_nc_ohc=7KsDZPROHIkQ7kNvwG72Nt8&_nc_gid=Hk5evh4vw-C56HBEzK2ZLw&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzcwMzQwNzg2MzM0NjA3OTIwNg%3D%3D.3-ccb7-5&oh=00_AfZrgubR08yg_QSaLUciDscYX1Cvp3jR_sfR2h9LwDgluw&oe=68C58CAF&_nc_sid=fc8dfb"
                 width={940}
                 height={560}
                 decoding="async"
@@ -234,7 +234,7 @@ els.forEach((el) => {
                    <div className="project-card fade_bottom">
               <img
                 alt="project-1"
-                srcSet="https://scontent.cdninstagram.com/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&cb=30a688f7-47795e66&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb1-7-cb30a688f7-47795e66&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=YXMk0x--lEoQ7kNvwFRFZVh&_nc_oc=AdmTi4bf4QPSfoYwLWb-0yTtpKoVXZ9mMl2bBsMwOfEVnjlzobRXreQUgu8lSdQx_U9xQDu18c5AyKM1pAxPZr3i&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hx2E-JAcD-JVjZ_KfRGjJg&oh=00_AfWb6WZUUfTD0FPkpdt6odq-oO0mh8vz-0fgmS1zXGEgYw&oe=68A36C3E"
+                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QFtE-A_DOOqgGeTYkKQ2iOXKdNDCL2widdFfy-G5ImpiidvOmAk3epMhNyYb8GAVz1qdKSglRVvhhV2XlvOO1IA&_nc_ohc=BrQ7eTBiyVgQ7kNvwHTaRA-&_nc_gid=H2fvk24CVp0VMkRFTYpMKA&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb7-5&oh=00_Afb6LAe-KYrMszwRrarZPC6_gKgYDU-A-L-qtwSqEiMz-w&oe=68C5B33E&_nc_sid=fc8dfb"
                 width={740}
                 height={560}
                 decoding="async"
@@ -243,7 +243,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://scontent.cdninstagram.com/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&cb=30a688f7-47795e66&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb1-7-cb30a688f7-47795e66&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=YXMk0x--lEoQ7kNvwFRFZVh&_nc_oc=AdmTi4bf4QPSfoYwLWb-0yTtpKoVXZ9mMl2bBsMwOfEVnjlzobRXreQUgu8lSdQx_U9xQDu18c5AyKM1pAxPZr3i&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hx2E-JAcD-JVjZ_KfRGjJg&oh=00_AfWb6WZUUfTD0FPkpdt6odq-oO0mh8vz-0fgmS1zXGEgYw&oe=68A36C3E"
+                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QFtE-A_DOOqgGeTYkKQ2iOXKdNDCL2widdFfy-G5ImpiidvOmAk3epMhNyYb8GAVz1qdKSglRVvhhV2XlvOO1IA&_nc_ohc=BrQ7eTBiyVgQ7kNvwHTaRA-&_nc_gid=H2fvk24CVp0VMkRFTYpMKA&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb7-5&oh=00_Afb6LAe-KYrMszwRrarZPC6_gKgYDU-A-L-qtwSqEiMz-w&oe=68C5B33E&_nc_sid=fc8dfb"
                 width={740}
                 height={560}
                 decoding="async"
