@@ -356,7 +356,7 @@ export default function Page() {
             <div className="project-card fade_bottom">
               <img
                 alt="Oturma Odası"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/518380635_122103634004944818_5043005245250970465_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QHf97mOSFXaDcT6hdPS28s79f2QXJEcjvUvO9vW9Siv8sDBcWGPOnTx1vjwS8Tfc68kcrf8_L6Y_nsU4DCyKqg_&_nc_ohc=mSpiBgaNoYMQ7kNvwH2Vw02&_nc_gid=MaDeGJGws4bU9BsWykR-cw&edm=APoiHPcAAAAA&ccb=7-5&ig_cache_key=MzY4MTcyMzUyMjU2NTYyOTQ1OA%3D%3D.3-ccb7-5&oh=00_AfVNvkmqkLbUHV_2WFXJ0sjR2BawU7ZQ9NEmJ-TnsYHoXw&oe=689F9765&_nc_sid=22de04"
+                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -365,7 +365,7 @@ export default function Page() {
               />
               <img
                 alt="Oturma Odası"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/518380635_122103634004944818_5043005245250970465_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QHf97mOSFXaDcT6hdPS28s79f2QXJEcjvUvO9vW9Siv8sDBcWGPOnTx1vjwS8Tfc68kcrf8_L6Y_nsU4DCyKqg_&_nc_ohc=mSpiBgaNoYMQ7kNvwH2Vw02&_nc_gid=MaDeGJGws4bU9BsWykR-cw&edm=APoiHPcAAAAA&ccb=7-5&ig_cache_key=MzY4MTcyMzUyMjU2NTYyOTQ1OA%3D%3D.3-ccb7-5&oh=00_AfVNvkmqkLbUHV_2WFXJ0sjR2BawU7ZQ9NEmJ-TnsYHoXw&oe=689F9765&_nc_sid=22de04"
+                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -406,11 +406,11 @@ export default function Page() {
             <div className="project-card fade_bottom">
               <img
                 alt="Yatak Odası"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/519653102_122106035516944818_1243802248604637088_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QH_QHfX5NAqi8VrYe6pNFKr9vX-n1PeJY07hUsG1qKZHUk3zuTVwjlw-a67U90Psvuo5r9RBg61_iGtsokJweIt&_nc_ohc=JjXT1bNQGnAQ7kNvwGE4ZXX&_nc_gid=P3AD8QHcXO3JBnuFZJvK-A&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzY4MzczNjYxNDMxNzY4MDY2Ng%3D%3D.3-ccb7-5&oh=00_AfUw86qTks1TaDf7FcV7fQuqEq195MPAzFZWIBB7SK9q8g&oe=689F98EB&_nc_sid=10d13b"
+                srcSet="https://www.tarzmobilya.com/idea/ol/88/myassets/products/554/dsc6958.jpg?revision=1753881823"
               />
               <img
                 alt="Yatak Odası"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/519653102_122106035516944818_1243802248604637088_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QH_QHfX5NAqi8VrYe6pNFKr9vX-n1PeJY07hUsG1qKZHUk3zuTVwjlw-a67U90Psvuo5r9RBg61_iGtsokJweIt&_nc_ohc=JjXT1bNQGnAQ7kNvwGE4ZXX&_nc_gid=P3AD8QHcXO3JBnuFZJvK-A&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzY4MzczNjYxNDMxNzY4MDY2Ng%3D%3D.3-ccb7-5&oh=00_AfUw86qTks1TaDf7FcV7fQuqEq195MPAzFZWIBB7SK9q8g&oe=689F98EB&_nc_sid=10d13b"
+                srcSet="https://www.tarzmobilya.com/idea/ol/88/myassets/products/554/dsc6958.jpg?revision=1753881823"
               />
               <div className="content">
                 <h2><a href="/kategoriler/yatak-odasi">Yatak Odası</a></h2>

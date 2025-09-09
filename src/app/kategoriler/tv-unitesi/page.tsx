@@ -292,7 +292,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <InstagramGallery tag="tvünitesi" limit={5} />
+      <InstagramGallery tag="ŞıkDetaylar" limit={5} />
 
       <Footer />
 

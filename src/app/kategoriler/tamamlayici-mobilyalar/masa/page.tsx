@@ -243,7 +243,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Dresuar üstü aydınlatma ve depolama detayları"
-              src="https://static.ticimax.cloud/52852/uploads/urunresimleri/buyuk/heybeli-katlanir-ahsap-bahce-balkon-ta-abaf98.jpg"
+              src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKoe9yCnGwsKLZgyHVBXYesd_dvMB_6xRJjP2zQ523uP6erEdsQK2t2w9uX14fw_YmxNH_k28BvvRwEvxmylVpMlGuJHhTUlVSrAATAwOF90KmsCArnTLIaA"
               loading="lazy"
               decoding="async"
             />

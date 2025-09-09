@@ -171,7 +171,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Oturma Odası"
-              src="https://www.fehmioglumobilya.com/idea/jp/67/myassets/products/740/lipsos-koltuk-1.jpg?revision=1742128663"
+              src="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -298,7 +298,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <InstagramGallery tag="ŞıkDetaylar" limit={5} />
+      <InstagramGallery tag="oturmagrubu" limit={5} />
 
       <Footer />
 
