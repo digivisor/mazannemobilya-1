@@ -2,10 +2,11 @@
 
 // ============================================================================
 // ReviewsCarousel.tsx — Google yorumları için merkez odaklı, drag + butonlu carousel
-// - Kendi içinde fetch yapar: GET /api/reviews?limit=6
+// - GET /api/reviews?limit=6
 // - Scroll-snap + pointer drag + sol/sağ buton
-// - Hafif cam (glass) efekti ve premium tipografi
-// - Kenarlarda yumuşak fade (mask-image + overlay fallback)
+// - Hafif cam (glass) efekti, premium tipografi
+// - Kenarlarda yumuşak fade
+// - Autoplay + Infinite Loop
 // ============================================================================
 import React, { useEffect, useRef, useState } from "react";
 
@@ -37,7 +38,17 @@ export type ReviewItem = {
   time?: string;
 };
 
-export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: string; limit?: number }) {
+export function ReviewsCarousel({
+  title = "Ne Dediler?",
+  limit = 6,
+  autoPlay = true,
+  interval = 4000, // 4 sn
+}: {
+  title?: string;
+  limit?: number;
+  autoPlay?: boolean;
+  interval?: number;
+}) {
   const trackRef = useRef<HTMLDivElement | null>(null);
   const [dragging, setDragging] = useState(false);
   const pos = useRef<{ x: number; s: number }>({ x: 0, s: 0 });
@@ -46,7 +57,7 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // ---- FETCH (kullanıcının verdiği endpointlerle) ----
+  // ---- FETCH ----
   useEffect(() => {
     let alive = true;
     (async () => {
@@ -65,15 +76,28 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
     return () => { alive = false; };
   }, [limit]);
 
+  // ---- SCROLL (loop mantığı) ----
   const scrollByCards = (dir: 1 | -1) => {
     const el = trackRef.current;
     if (!el) return;
     const card = el.querySelector<HTMLElement>(".rc-card");
     const step = card ? card.offsetWidth + 20 : el.clientWidth * 0.8;
     el.scrollBy({ left: dir * step, behavior: "smooth" });
+
+    // Küçük gecikmeyle baş/son kontrolü
+    setTimeout(() => {
+      if (!el) return;
+      const maxScroll = el.scrollWidth - el.clientWidth;
+      if (dir === 1 && el.scrollLeft >= maxScroll - 5) {
+        el.scrollTo({ left: 0, behavior: "smooth" });
+      }
+      if (dir === -1 && el.scrollLeft <= 5) {
+        el.scrollTo({ left: maxScroll, behavior: "smooth" });
+      }
+    }, 400);
   };
 
-  // drag to scroll (mouse/touch)
+  // ---- DRAG ----
   const onDown = (e: React.PointerEvent) => {
     const el = trackRef.current; if (!el) return;
     setDragging(true); el.setPointerCapture(e.pointerId);
@@ -87,6 +111,15 @@ export function ReviewsCarousel({ title = "Ne Dediler?", limit = 6 }: { title?: 
     const el = trackRef.current; if (!el) return;
     setDragging(false); el.releasePointerCapture(e.pointerId);
   };
+
+  // ---- AUTOPLAY ----
+  useEffect(() => {
+    if (!autoPlay || !reviews.length) return;
+    const timer = setInterval(() => {
+      if (!dragging) scrollByCards(1);
+    }, interval);
+    return () => clearInterval(timer);
+  }, [reviews, autoPlay, interval, dragging]);
 
   return (
     <section className="reviews">

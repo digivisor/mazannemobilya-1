@@ -289,7 +289,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-    <InstagramGallery tag="ŞıkDetaylar" limit={5} />
+    <InstagramGallery tag="masa" limit={9} />
       <Footer />
 
       {/* ===== ANİMASYON + HOVER (Hero tilt + CTA kontrast fix) ===== */}

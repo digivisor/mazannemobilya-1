@@ -30,6 +30,7 @@ const fontHeading = DM_Sans({
 export default function Page() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileCatsOpen, setMobileCatsOpen] = useState(false);
+const [showVideo, setShowVideo] = useState(false);
 
   // Video modal state
   const [videoOpen, setVideoOpen] = useState(false);
@@ -245,10 +246,7 @@ export default function Page() {
                   <button
                     className="video-btn"
                     aria-label="Tanıtım Videosu"
-                    onClick={() => {
-                      setVideoSrc("https://www.youtube.com/embed/ysz5S6PUM-U?autoplay=1&rel=0");
-                      setVideoOpen(true);
-                    }}
+                     onClick={() => setShowVideo(true)}
                   >
                     <svg width="70" height="70" viewBox="0 0 70 70" fill="none">
                       <circle cx="35" cy="35" r="35" fill="white"></circle>
@@ -305,45 +303,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* VIDEO MODAL */}
-      {videoOpen && (
-        <div
-          className="video-backdrop"
-          onClick={() => {
-            setVideoOpen(false);
-            setVideoSrc(null);
-          }}
-        >
-          <div
-            className="video-modal"
-            onClick={(e) => e.stopPropagation()}
-            role="dialog"
-            aria-modal="true"
-            aria-label="Tanıtım Videosu"
-          >
-            <button
-              className="modal-close"
-              aria-label="Kapat"
-              onClick={() => {
-                setVideoOpen(false);
-                setVideoSrc(null);
-              }}
-            >
-              ×
-            </button>
-            <div className="modal-body">
-              {videoSrc && (
-                <iframe
-                  src={videoSrc}
-                  title="Tanıtım Videosu"
-                  allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-                  allowFullScreen
-                />
-              )}
-            </div>
-          </div>
-        </div>
-      )}
+      
 
       {/* PROJECTS (Kategoriler) */}
       <section className="wpo-project-section section-padding">
@@ -354,6 +314,7 @@ export default function Page() {
 
           <div className="project-wrap">
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/oturma-grubu">
               <img
                 alt="Oturma Odası"
                 srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
@@ -376,9 +337,11 @@ export default function Page() {
                 <h2><a href="/kategoriler/oturma-grubu">Oturma Odası</a></h2>
                 <span>Konfor ve akış için yerleşim, kumaş & renk önerileri.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/yemek-odasi">
               <img
                 alt="Yemek Odası"
                 srcSet="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg"
@@ -401,9 +364,11 @@ export default function Page() {
                 <h2><a href="/kategoriler/yemek-odasi">Yemek Odası</a></h2>
                 <span>Masa ölçüleri, sandalye ergonomisi ve aydınlatma.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/yatak-odasi">
               <img
                 alt="Yatak Odası"
                 srcSet="https://www.tarzmobilya.com/idea/ol/88/myassets/products/554/dsc6958.jpg?revision=1753881823"
@@ -416,9 +381,11 @@ export default function Page() {
                 <h2><a href="/kategoriler/yatak-odasi">Yatak Odası</a></h2>
                 <span>Başlık & baza, tekstil ve saklama çözümleri.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/genc-cocuk-odasi">
               <img
                 alt="Çocuk & Genç Odası"
                 srcSet="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
@@ -441,7 +408,9 @@ export default function Page() {
                 <h2><a href="/kategoriler/genc-cocuk-odasi">Çocuk &amp; Genç Odası</a></h2>
                 <span>Renkli, güvenli ve ergonomik seçenekler.</span>
               </div>
+              </a>
             </div>
+            
           </div>
 
           <div className="project-allBtn fade_bottom">
@@ -572,7 +541,35 @@ export default function Page() {
           </div>
         </div>
       </section>
+{showVideo && (
+  <div
+    className="video-modal-backdrop"
+    onClick={() => setShowVideo(false)}
+  >
+    <div
+      className="video-modal"
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* Kapatma butonu */}
+      <button
+        className="video-close-btn"
+        onClick={() => setShowVideo(false)}
+        aria-label="Kapat"
+      >
+        ×
+      </button>
 
+      <video
+        src="/mazanne.mp4"
+        autoPlay
+        playsInline
+        controls
+        controlsList="nodownload noplaybackrate nofullscreen"
+        disablePictureInPicture
+      />
+    </div>
+  </div>
+)}
       <Footer/>
 
       {/* === TEK (merged) GLOBAL STYLE + SPLIT/FAQ === */}
@@ -636,21 +633,7 @@ export default function Page() {
   .wpo-process-section .step-card h3{ margin:4px 0 6px; font-size:18px; }
   .wpo-process-section .step-card p{ opacity:.88; margin:0; }
 
-  /* === Video modal === */
-  .video-backdrop{
-    position:fixed; inset:0; background:rgba(0,0,0,.6);
-    display:flex; align-items:center; justify-content:center; z-index:11000;
-  }
-  .video-modal{
-    position:relative; width:min(900px, 92vw); background:#000; border-radius:14px;
-    overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,.4);
-  }
-  .video-modal .modal-close{
-    position:absolute; top:10px; right:10px; width:36px; height:36px; border-radius:10px; border:0;
-    background:rgba(255,255,255,.92); cursor:pointer; font-size:22px; line-height:1;
-  }
-  .video-modal .modal-body{ position:relative; width:100%; padding-top:56.25%; }
-  .video-modal .modal-body iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+
 
   /* === Project cards minor mobile overflow fix === */
   @media (max-width: 767.98px){
@@ -725,6 +708,59 @@ export default function Page() {
   .wpo-site-footer .social-widget .soc:hover{
     transform:translateY(-2px); background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.28);
   }
+    .video-modal-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.75);
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+      }
+      .video-modal {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 9/16;
+        background: black;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      .video-modal video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        transform: rotate(270deg) scale(0.56);
+        transform-origin: center center;
+      }
+      .video-close-btn {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: rgba(0, 0, 0, 0.6);
+        border: none;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 6px;
+        width: 40px;
+        height: 40px;
+        line-height: 1;
+        z-index: 30000; /* video’nun da üstünde */
+      }
+      .video-close-btn:hover {
+        background: rgba(0, 0, 0, 0.85);
+      }
+
+      /* Timeline ve süreyi gizle */
+      video::-webkit-media-controls-timeline,
+      video::-webkit-media-controls-current-time-display,
+      video::-webkit-media-controls-time-remaining-display {
+        display: none !important;
+      }
       `}</style>
     </div>
   );

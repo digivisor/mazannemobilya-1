@@ -191,7 +191,7 @@ export default function Page() {
             </p>
 
             <ul className="bullet">
-              <li>Modüler L-koltuk ve 3+1+1 takımlar</li>
+              <li>Modüler L-koltuk ve 3+3+1 takımlar</li>
               <li>Su itici, silinebilir kumaş kartelası</li>
               <li>Fırınlanmış gürgen iskelet, 24 ay garanti</li>
               <li>Yumuşak/orta/sert oturum opsiyonları</li>
@@ -298,7 +298,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <InstagramGallery tag="oturmagrubu" limit={5} />
+      <InstagramGallery tag="oturmagrubu" limit={9} />
 
       <Footer />
 

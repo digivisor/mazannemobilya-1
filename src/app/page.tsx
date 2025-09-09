@@ -6,6 +6,7 @@ import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 import Link from "next/link";
 import Footer from "./components/Footer";
 import { ReviewsCarousel ,InstagramGrid} from "./components/ReviewsCareousel";
+import InstagramGallery from "./components/InstagramGallery";
 
 
 const fontBody = Inter({
@@ -842,40 +843,49 @@ const [showVideo, setShowVideo] = useState(false);
 
           <div className="project-wrap">
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/oturma-grubu">
               <img alt="project-1" src="https://www.bellona.com.tr/idea/kc/78/myassets/products/157/1-3-bonita-xl-kose-oscar-1.jpg?revision=1753951436" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <img alt="project-1" src="https://www.bellona.com.tr/idea/kc/78/myassets/products/157/1-3-bonita-xl-kose-oscar-1.jpg?revision=1753951436" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <div className="content">
                 <h2><a href="/kategoriler/oturma-grubu">Oturma Grubu</a></h2>
                 <span>Konfor ve akış için yerleşim, kumaş & renk önerileri.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/yemek-odasi">
               <img alt="project-2" src="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg" width={940} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <img alt="project-2" src="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg" width={940} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <div className="content">
                 <h2><a href="/kategoriler/yemek-odasi">Yemek Odası</a></h2>
                 <span>Masa ölçüleri, sandalye ergonomisi ve aydınlatma.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/yatak-odasi">
               <img alt="project-3" src="https://witcdn.medusahome.com.tr/bonje-yatak-odasi-modern-yatak-odasi-183136-27-B.jpg" width={940} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <img alt="project-3" src="https://witcdn.medusahome.com.tr/bonje-yatak-odasi-modern-yatak-odasi-183136-27-B.jpg" width={940} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <div className="content">
                 <h2><a href="/kategoriler/yatak-odasi">Yatak Odası</a></h2>
                 <span>Başlık & baza, tekstil ve saklama çözümleri.</span>
               </div>
+              </a>
             </div>
 
             <div className="project-card fade_bottom">
+              <a href="/kategoriler/genc-cocuk-odasi">
               <img alt="project-4" src="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <img alt="project-4" src="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <div className="content">
                 <h2><a href="/kategoriler/genc-cocuk-odasi">Çocuk & Genç Odası</a></h2>
                 <span>Renkli, güvenli ve ergonomik seçenekler.</span>
               </div>
+              </a>
             </div>
+            
           </div>
 
           <div className="project-allBtn fade_bottom">
@@ -1001,7 +1011,10 @@ const [showVideo, setShowVideo] = useState(false);
       </section>
 
 <ReviewsCarousel title="Ne Dediler?" limit={6} />
-<InstagramGrid heading="Instagram’da Mazanne Mobilya" limit={6} />
+
+  <InstagramGallery tag="MazanneMobilya" limit={9} />
+
+
 {showVideo && (
   <div
     className="video-modal-backdrop"
