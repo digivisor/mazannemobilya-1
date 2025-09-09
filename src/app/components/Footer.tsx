@@ -46,7 +46,7 @@ export default function Footer() {
                     <li>
                      
                       <a href="https://www.facebook.com/profile.php?id=61578344554695" target="_blank" aria-label="Facebook" className="soc"><Facebook size={18} strokeWidth={2} /></a>
-                      <a href="/" target="_blank" aria-label="Twitter" className="soc"><Twitter size={18} strokeWidth={2} /></a>
+                      {/* <a href="/" target="_blank" aria-label="Twitter" className="soc"><Twitter size={18} strokeWidth={2} /></a> */}
                       {/* <a href="/" target="_blank" aria-label="LinkedIn" className="soc"><Linkedin size={18} strokeWidth={2} /></a> */}
                       <a href="https://www.instagram.com/mazanne.mobilya" target="_blank" aria-label="Instagram" className="soc"><Instagram size={18} strokeWidth={2} /></a>
                     </li>

@@ -65,7 +65,7 @@ export default function Header() {
               <div className="contact-into">
                 <ul className="social-media">
                   <li><a href="https://www.facebook.com/profile.php?id=61578344554695" target="_blank" aria-label="Facebook"><Facebook size={18} strokeWidth={2} /></a></li>
-                  <li><a href="/" target="_blank" aria-label="Twitter / X"><Twitter size={18} strokeWidth={2} /></a></li>
+                  {/* <li><a href="/" target="_blank" aria-label="Twitter / X"><Twitter size={18} strokeWidth={2} /></a></li> */}
                   {/* <li><a href="/" target="_blank" aria-label="LinkedIn"><Linkedin size={18} strokeWidth={2} /></a></li> */}
                   <li><a href="https://www.instagram.com/mazanne.mobilya" target="_blank" aria-label="Instagram"><Instagram size={18} strokeWidth={2} /></a></li>
                 </ul>
