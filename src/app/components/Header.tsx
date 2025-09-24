@@ -128,7 +128,7 @@ export default function Header() {
                                 </button>
                                 <ul className="sub-menu" style={{ maxHeight: mobileComplementOpen ? 160 : 0 }}>
                                   <li><a href="/kategoriler/tamamlayici-mobilyalar/sehpa">Sehpa</a></li>
-                                  <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Masa</a></li>
+                                  <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Mutfak Masası</a></li>
                                 </ul>
                               </li>
                             </ul>
@@ -224,7 +224,7 @@ export default function Header() {
                           </a>
                           <ul className="sub-menu">
                             <li><a href="/kategoriler/tamamlayici-mobilyalar/sehpa">Sehpa</a></li>
-                            <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Masa</a></li>
+                            <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Mutfak Masası</a></li>
                           </ul>
                         </li>
                       </ul>

@@ -146,9 +146,9 @@ export default function Page() {
             <div className="col col-xs-12">
               <div className="wpo-breadcumb-wrap">
                 <ol>
-                  <li>Kategoriler / Tamamlayıcı Mobilyalar / Masa</li>
+                  <li>Kategoriler / Tamamlayıcı Mobilyalar / Mutfak Masası</li>
                 </ol>
-                <h2 className="fade_bottom slow-reveal">Masa</h2>
+                <h2 className="fade_bottom slow-reveal">Mutfak Masası</h2>
               </div>
             </div>
           </div>

@@ -220,7 +220,7 @@ const [showVideo, setShowVideo] = useState(false);
       title: (
         <>
           Her Çizgide Tasarım,{" "}
-          <span>
+          {/* <span>
             <img
               alt=""
               src="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-text.6ee42267.jpg&w=640&q=75"
@@ -230,7 +230,7 @@ const [showVideo, setShowVideo] = useState(false);
               loading="lazy"
               style={{ color: "transparent", marginBottom: "25px" }}
             />
-          </span>{" "}
+          </span>{" "} */}
           Her Parçada Dayanıklılık
         </>
       ),
@@ -240,7 +240,7 @@ const [showVideo, setShowVideo] = useState(false);
       title: (
         <>
           Evinize Özel Tasarım,{" "}
-          <span>
+          {/* <span>
             <img
               alt=""
               src="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-text.6ee42267.jpg&w=640&q=75"
@@ -250,7 +250,7 @@ const [showVideo, setShowVideo] = useState(false);
               loading="lazy"
               style={{ color: "transparent", marginBottom: "25px" }}
             />
-          </span>{" "}
+          </span>{" "} */}
           Yıllara Meydan Okuyan Konfor
         </>
       ),
@@ -435,7 +435,7 @@ const [showVideo, setShowVideo] = useState(false);
                                     </button>
                                     <ul className="sub-menu" style={{ maxHeight: mobileComplementOpen ? 200 : 0 }}>
                                       <li><a href="/kategoriler/tamamlayici-mobilyalar/sehpa">Sehpa</a></li>
-                                      <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Masa</a></li>
+                                      <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Mutfak Masası</a></li>
                                     </ul>
                                   </li>
                                 </ul>
@@ -511,7 +511,7 @@ const [showVideo, setShowVideo] = useState(false);
                               </a>
                               <ul className="sub-menu">
                                 <li><a href="/kategoriler/tamamlayici-mobilyalar/sehpa">Sehpa</a></li>
-                                <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Masa</a></li>
+                                <li><a href="/kategoriler/tamamlayici-mobilyalar/masa">Mutfak Masası</a></li>
                               </ul>
                             </li>
                           </ul>
