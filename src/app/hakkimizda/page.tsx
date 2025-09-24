@@ -317,7 +317,7 @@ const [showVideo, setShowVideo] = useState(false);
               <a href="/kategoriler/oturma-grubu">
               <img
                 alt="Oturma Odası"
-                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
+                srcSet="/oturma2.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -326,7 +326,7 @@ const [showVideo, setShowVideo] = useState(false);
               />
               <img
                 alt="Oturma Odası"
-                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
+                srcSet="/oturma2.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -344,7 +344,7 @@ const [showVideo, setShowVideo] = useState(false);
               <a href="/kategoriler/yemek-odasi">
               <img
                 alt="Yemek Odası"
-                srcSet="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg"
+                srcSet="/yemek3.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -353,7 +353,7 @@ const [showVideo, setShowVideo] = useState(false);
               />
               <img
                 alt="Yemek Odası"
-                srcSet="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg"
+                srcSet="/yemek3.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -371,11 +371,11 @@ const [showVideo, setShowVideo] = useState(false);
               <a href="/kategoriler/yatak-odasi">
               <img
                 alt="Yatak Odası"
-                srcSet="https://www.tarzmobilya.com/idea/ol/88/myassets/products/554/dsc6958.jpg?revision=1753881823"
+                srcSet="/yatak2.jpg"
               />
               <img
                 alt="Yatak Odası"
-                srcSet="https://www.tarzmobilya.com/idea/ol/88/myassets/products/554/dsc6958.jpg?revision=1753881823"
+                srcSet="/yatak2.jpg"
               />
               <div className="content">
                 <h2><a href="/kategoriler/yatak-odasi">Yatak Odası</a></h2>
@@ -388,7 +388,7 @@ const [showVideo, setShowVideo] = useState(false);
               <a href="/kategoriler/genc-cocuk-odasi">
               <img
                 alt="Çocuk & Genç Odası"
-                srcSet="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
+                srcSet="/genc3.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -397,7 +397,7 @@ const [showVideo, setShowVideo] = useState(false);
               />
               <img
                 alt="Çocuk & Genç Odası"
-                srcSet="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
+                srcSet="/genc3.jpg"
                 width={740}
                 height={560}
                 decoding="async"

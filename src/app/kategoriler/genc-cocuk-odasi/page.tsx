@@ -163,7 +163,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Neon detaylı, çalışma masalı modern genç odası"
-              src="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
+              src="/genc3.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -197,7 +197,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Ders çalışma alanı ve modüler raflar"
-              src="https://storage.googleapis.com/mobilya/model/47/m-mobilya-86128-63287e123d40d.jpg"
+              src="/genc5.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -244,7 +244,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Ranzalı çocuk odası ve saklama çözümleri"
-              src="https://cilek.com/cdn/shop/files/Mocha_Departman_1080x.jpg?v=1678351394"
+              src="/genc1.jpg"
               loading="lazy"
               decoding="async"
             />

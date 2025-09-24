@@ -110,7 +110,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
+                srcSet="/oturma2.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -119,7 +119,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://witcdn.medusahome.com.tr/venus-koltuk-takimi-modern-koltuk-takimlari-229512-33-B.jpg"
+                srcSet="/oturma2.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -134,11 +134,10 @@ els.forEach((el) => {
             </div>
 
             <div className="project-card fade_bottom">
-                            <a href="/kategoriler/yemek-odasi">
-
+            <a href="/kategoriler/yemek-odasi">
               <img
                 alt="project-1"
-                srcSet="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg"
+                srcSet="/yemek3.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -147,7 +146,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://www.mobilyadiyari.com/soft-yemek-odasi-mobilya-diyari-5586-15-B.jpg"
+                srcSet="/yemek3.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -167,7 +166,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST7Ju1ysdz5ZSHG0lgDTrWSjXZ3tvrns9uJD-cJMtXzTi3DvfNPVoQt85gK3KSEajqGYX02xQC0ULO2AQ5BfzlEsMqIl5WCBnlnWAeCMmWFzaZkEfLf4PnmQ"
+                srcSet="yatak1.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -176,7 +175,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST7Ju1ysdz5ZSHG0lgDTrWSjXZ3tvrns9uJD-cJMtXzTi3DvfNPVoQt85gK3KSEajqGYX02xQC0ULO2AQ5BfzlEsMqIl5WCBnlnWAeCMmWFzaZkEfLf4PnmQ"
+                srcSet="yatak1.jpg"
                 width={940}
                 height={560}
                 decoding="async"
@@ -196,7 +195,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
+                srcSet="/combined_output.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -205,7 +204,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://alfemo.com.tr/mate-compact-room-genc-odasi-stu-01-genccocuk-odasi-takimi-4554-43-B.jpg"
+                srcSet="/combined_output.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -225,7 +224,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://www.minarmobilya.com/idea/dq/03/myassets/products/727/prime-tv-unitesi-kumtasi-1_min.jpg?revision=1754656630"
+                srcSet="/tv1.webp"
                 width={740}
                 height={560}
                 decoding="async"
@@ -234,7 +233,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://www.minarmobilya.com/idea/dq/03/myassets/products/727/prime-tv-unitesi-kumtasi-1_min.jpg?revision=1754656630"
+                srcSet="/tv1.webp"
                 width={740}
                 height={560}
                 decoding="async"
@@ -253,7 +252,7 @@ els.forEach((el) => {
               <a href="/kategoriler/bahce-mobilyalari">
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QFtE-A_DOOqgGeTYkKQ2iOXKdNDCL2widdFfy-G5ImpiidvOmAk3epMhNyYb8GAVz1qdKSglRVvhhV2XlvOO1IA&_nc_ohc=BrQ7eTBiyVgQ7kNvwHTaRA-&_nc_gid=H2fvk24CVp0VMkRFTYpMKA&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb7-5&oh=00_Afb6LAe-KYrMszwRrarZPC6_gKgYDU-A-L-qtwSqEiMz-w&oe=68C5B33E&_nc_sid=fc8dfb"
+                srcSet="/bahcemobilya.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -262,7 +261,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://instagram.fayt2-2.fna.fbcdn.net/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjEwODB4MTM1MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fayt2-2.fna.fbcdn.net&_nc_cat=106&_nc_oc=Q6cZ2QFtE-A_DOOqgGeTYkKQ2iOXKdNDCL2widdFfy-G5ImpiidvOmAk3epMhNyYb8GAVz1qdKSglRVvhhV2XlvOO1IA&_nc_ohc=BrQ7eTBiyVgQ7kNvwHTaRA-&_nc_gid=H2fvk24CVp0VMkRFTYpMKA&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb7-5&oh=00_Afb6LAe-KYrMszwRrarZPC6_gKgYDU-A-L-qtwSqEiMz-w&oe=68C5B33E&_nc_sid=fc8dfb"
+                srcSet="/bahcemobilya.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -282,7 +281,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://cdn.dsmcdn.com/ty1390/product/media/images/prod/QC/20240629/14/53637cbe-a873-3ada-817f-d6c1df2b2098/1_org_zoom.jpg"
+                srcSet="/1_org_zoom.webp"
                 width={740}
                 height={560}
                 decoding="async"
@@ -291,7 +290,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://cdn.dsmcdn.com/ty1390/product/media/images/prod/QC/20240629/14/53637cbe-a873-3ada-817f-d6c1df2b2098/1_org_zoom.jpg"
+                srcSet="/1_org_zoom.webp"
                 width={740}
                 height={560}
                 decoding="async"
@@ -311,7 +310,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="https://img.vivense.com/1920x1280/images/0b9ea4b7515543efba091709b283344c.jpg"
+                srcSet="yemek1.jpg"
                 width={740}
                 height={560}
                 decoding="async"
@@ -320,7 +319,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="https://img.vivense.com/1920x1280/images/0b9ea4b7515543efba091709b283344c.jpg"
+                srcSet="yemek1.jpg"
                 width={740}
                 height={560}
                 decoding="async"

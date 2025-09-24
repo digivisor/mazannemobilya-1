@@ -162,7 +162,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Minimal çizgilere sahip doğal ahşap masa ve sandalye kombinasyonu"
-              src="https://img.vivense.com/1920x1280/images/0b9ea4b7515543efba091709b283344c.jpg"
+              src="/yemek.webp"
               loading="lazy"
               decoding="async"
             />
@@ -196,7 +196,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Geniş yüzeyli çalışma masası, sade aksesuarlar ve depolama"
-              src="https://static.ticimax.cloud/47642/uploads/urunresimleri/buyuk/kastra-jonah-masif-mese-masa-yemek-mas-1cc-bc.jpg"
+              src="/yemek1.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -243,7 +243,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Dresuar üstü aydınlatma ve depolama detayları"
-              src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKoe9yCnGwsKLZgyHVBXYesd_dvMB_6xRJjP2zQ523uP6erEdsQK2t2w9uX14fw_YmxNH_k28BvvRwEvxmylVpMlGuJHhTUlVSrAATAwOF90KmsCArnTLIaA"
+              src="/yemek4.jpg"
               loading="lazy"
               decoding="async"
             />

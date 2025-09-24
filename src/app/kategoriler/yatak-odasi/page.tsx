@@ -204,7 +204,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Sıcak tonlarda tekstil ve başlık detayı"
-              src="https://scontent.cdninstagram.com/v/t51.82787-15/537503264_17852928651521329_1012671121401517395_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=7Ir2UKybPVMQ7kNvwEWZzPr&_nc_oc=AdnQCGZ5aSoVa7BjqekbKtjnEhHeMUk5DAaXWRsnWGHM9KTgO_gS8ntlZMUSBaaniJTH0YZm6d3i5viBd40w0IpA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=YYlzvi8uV76e46Q-lwHiyA&oh=00_AfadQFmX7jAI4DCu0uDlaKQGlAP2a7Mo-kWVl4ZtZaB6Kg&oe=68C59A86"
+              src="/yatakodasi1jpg.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -251,7 +251,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Yatak odası gardırop ve ayna detayları"
-              src="https://scontent.cdninstagram.com/v/t51.82787-15/535805325_17852684562521329_2500007029990257046_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=1-7&_nc_sid=18de74&_nc_ohc=iX5EfY_4VpAQ7kNvwG24x8R&_nc_oc=AdmEanm1T-EmHf13VpDr8AZ3Wp6Co8yApUiCz_J1U5Hc1M1WzXBfvlUt9KqQ-XmVUgWHLGJTHV5A7dXP1SGDeqDZ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=YYlzvi8uV76e46Q-lwHiyA&oh=00_AfYx3rnqzkcsdndggzgTefSPS2Dk94kv7kPhZEAGeU92Aw&oe=68C58CB9"
+              src="/yatakodasi2.jpg"
               loading="lazy"
               decoding="async"
             />

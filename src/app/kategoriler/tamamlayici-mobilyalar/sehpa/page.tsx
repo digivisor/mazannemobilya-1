@@ -162,7 +162,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Modern oturma alanında doğal ahşap orta sehpa"
-              src="https://witcdn.medusahome.com.tr/milano-luxury-sehpa-beyaz-orta-sehpa-207891-30-B.jpg"
+              src="/sehpa.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -196,7 +196,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Yan sehpa ve aksesuarlarla tamamlanmış oturma alanı"
-              src="https://m.media-amazon.com/images/I/71zwZinA51L._UF1000,1000_QL80_.jpg"
+              src="/1_org_zoom.webp"
               loading="lazy"
               decoding="async"
             />
@@ -243,7 +243,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Zigon sehpa seti ve dekoratif aksesuarlar"
-              src="https://cdn.dsmcdn.com/ty1390/product/media/images/prod/QC/20240629/14/53637cbe-a873-3ada-817f-d6c1df2b2098/1_org_zoom.jpg"
+              src="/sehpa3.jpg"
               loading="lazy"
               decoding="async"
             />

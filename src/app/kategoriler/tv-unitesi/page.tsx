@@ -158,7 +158,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Minimal TV ünitesi ve medya konsolu"
-              src="https://sizindukkan.com/cdn/shop/files/21_92416efe-d967-47de-ac19-f23e537b4f52.jpg?v=1742913622"
+              src="/tv2.webp"
               loading="lazy"
               decoding="async"
             />
@@ -193,7 +193,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Ahşap kaplamalı TV ünitesi — açık raf ve kapaklı depolama"
-              src="https://www.minarmobilya.com/idea/dq/03/myassets/products/727/prime-tv-unitesi-kumtasi-1_min.jpg?revision=1754656630"
+              src="/tv2.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -245,7 +245,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Duvara asılı TV, yüzer raflı ünite ve kablo gizleme"
-              src="https://platincdn.com/3522/pictures/thumb/1000X-666X-JXCBFZLSKV513202593651_4.jpg"
+              src="/tv3.jpg"
               loading="lazy"
               decoding="async"
             />

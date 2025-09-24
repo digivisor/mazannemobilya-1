@@ -168,7 +168,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Doğal ahşap ve keten minderli modern bahçe oturma grubu"
-              src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop"
+              src="/bahce.webp"
               loading="lazy"
               decoding="async"
             />
@@ -202,7 +202,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Teak masa ve sandalyelerden oluşan dış mekân yemek alanı"
-              src="https://scontent.cdninstagram.com/v/t39.30808-6/527086412_122112897224944818_5608389323875561061_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&cb=30a688f7-47795e66&ig_cache_key=MzY5MTgyOTgwOTU2MzMzNDExMg%3D%3D.3-ccb1-7-cb30a688f7-47795e66&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=YXMk0x--lEoQ7kNvwFRFZVh&_nc_oc=AdmTi4bf4QPSfoYwLWb-0yTtpKoVXZ9mMl2bBsMwOfEVnjlzobRXreQUgu8lSdQx_U9xQDu18c5AyKM1pAxPZr3i&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hx2E-JAcD-JVjZ_KfRGjJg&oh=00_AfWb6WZUUfTD0FPkpdt6odq-oO0mh8vz-0fgmS1zXGEgYw&oe=68A36C3E"
+              src="/bahcemobilya.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -249,7 +249,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Havuz kenarında şezlong ve şemsiye ile bahçe dinlenme alanı"
-              src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1600&auto=format&fit=crop"
+              src="/bahcemobilyalari2.jpg"
               loading="lazy"
               decoding="async"
             />

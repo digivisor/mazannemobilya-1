@@ -163,7 +163,7 @@ export default function Page() {
             <img
               className="cat-hero-img slow-reveal"
               alt="Modern yemek odası — geniş ahşap masa ve sandalye seti"
-              src="https://www.mobilyamevime.com/images/urunler/pablo-ceviz-ahsap-ayakli-yemek-odasi-takimi-inegol-mobilyasi%20(1)83195.webp"
+              src="/yemek3.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -197,7 +197,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Ahşap panel duvarlı yemek odası — cam masa ve sandalyeler"
-              src="https://scontent.cdninstagram.com/v/t51.82787-15/528999216_17850886680521329_294225707181929620_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_cat=109&cb=30a688f7-47795e66&ig_cache_key=MzY5MzkzMTUzMDMyNDg3NTc0NA%3D%3D.3-ccb1-7-cb30a688f7-47795e66&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNTB4MTY4OC5zZHIuQzMifQ%3D%3D&_nc_ohc=Uu1ecX5Zw-kQ7kNvwEhZImx&_nc_oc=AdlUmwDnuI7wVINIvnQA_M-glmkAJs5wnUVOHo_Prbqmf9_zvz7sGZtXKriT_URRx8q7K2A6q-eiMv5vp4jBicPV&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Hx2E-JAcD-JVjZ_KfRGjJg&oh=00_AfXHpr1-trZo2U0b0-yfQtPE9C9po16bUcpIMeBqz8JmkQ&oe=68A35DBB"
+              src="/yemekodasi1.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -244,7 +244,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Pencereli, aydınlık bir yemek odasında masa detayı"
-              src="https://scontent.cdninstagram.com/v/t51.82787-15/525438597_17849791032521329_1633258474069404101_n.jpg?stp=dst-jpg_e35_p640x640_sh0.08_tt6&_nc_cat=111&cb=30a688f7-47795e66&ig_cache_key=MzY4ODE4MTE3ODY5MDQ4MjI3NA%3D%3D.3-ccb1-7-cb30a688f7-47795e66&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNTB4MTY4OC5zZHIuQzMifQ%3D%3D&_nc_ohc=H9BpwMv-iU0Q7kNvwFSs-4o&_nc_oc=AdlQhdTCL0gyUV66ahoxVEAWyjnxjh8-ey-ReCGRsNphxvdBQxJk8JKJ8tWlnQwKoaKWCtxgKXBvPk31cJcTWphK&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=0xngb1ZrFtHRkAYjKTaduQ&oh=00_AfWQMaWelQMDnSEqblCAt1X7VkBOohzYpSYmq_MFmvcWNg&oe=68A36BFF"
+              src="/yemekodasi.jpg"
               loading="lazy"
               decoding="async"
             />

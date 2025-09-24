@@ -205,7 +205,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Oturma Odası Detay"
-              src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1600&auto=format&fit=crop"
+              src="/roma1.jpg"
               loading="lazy"
               decoding="async"
             />
@@ -252,7 +252,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Oturma Odası SSS"
-              src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1600&auto=format&fit=crop"
+              src="/oturma3.jpg"
               loading="lazy"
               decoding="async"
             />
