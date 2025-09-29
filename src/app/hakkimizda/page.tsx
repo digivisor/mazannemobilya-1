@@ -317,7 +317,7 @@ const [showVideo, setShowVideo] = useState(false);
               <a href="/kategoriler/oturma-grubu">
               <img
                 alt="Oturma Odası"
-                srcSet="/oturma2.jpg"
+                srcSet="/oturma-grubu.png"
                 width={740}
                 height={560}
                 decoding="async"
@@ -326,7 +326,7 @@ const [showVideo, setShowVideo] = useState(false);
               />
               <img
                 alt="Oturma Odası"
-                srcSet="/oturma2.jpg"
+                srcSet="/oturma-grubu.png"
                 width={740}
                 height={560}
                 decoding="async"
