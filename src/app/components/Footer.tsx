@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="col col-lg-3 col-md-6 col-sm-12 col-12 scroll-text-animation" data-animation="fade_from_bottom">
               <div className="widget about-widget">
                 <div className="logo widget-title">
-                  <img alt="logo" src="/mazanne4.png" loading="lazy" decoding="async" />
+                  <img alt="logo" src="/mazanne-yatay.png" loading="lazy" decoding="async" />
                 </div>
                 <p>
                   Mazanne Mobilya; zamansız tasarım, sağlam işçilik ve uzun ömürlü

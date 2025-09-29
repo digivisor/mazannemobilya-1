@@ -245,7 +245,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Duvara asılı TV, yüzer raflı ünite ve kablo gizleme"
-              src="/tv3.jpg"
+              src="/oturma.png"
               loading="lazy"
               decoding="async"
             />

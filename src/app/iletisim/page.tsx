@@ -317,7 +317,7 @@ export default function ContactPage() {
           <div className="info-grid-inner">
             <InfoCard icon={MapPin} title="Adres" lines={["Yükseliş, Mehmet Akif Cd. No:88/1, 07025 Kepez/Antalya"]} />
             <InfoCard icon={Mail} title="E-posta" lines={["mazannemobilya@gmail.com", "info@mazannemobilya.com"]} />
-            <InfoCard icon={Phone} title="Telefon" lines={["+90 501 570 01 41", "+90 501 660 01 21"]} />
+            <InfoCard icon={Phone} title="Telefon" lines={["+90 501 570 01 41 (Operasyon)", "+90 501 660 01 21 (Satış)"]} />
           </div>
         </div>
       </section>

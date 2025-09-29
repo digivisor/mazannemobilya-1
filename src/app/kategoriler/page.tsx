@@ -80,7 +80,7 @@ els.forEach((el) => {
           <div className="row">
             <div className="col col-xs-12">
               <div className="wpo-breadcumb-wrap">
-                <ol><li>Kategoriler</li></ol>
+                {/* <ol><li>Kategoriler</li></ol> */}
                 <h2 className="fade_bottom">Eviniz için en iyisi Mazanne</h2>
               </div>
             </div>
@@ -100,9 +100,9 @@ els.forEach((el) => {
       {/* PROJECTS (Kategoriler) */}
       <section className="wpo-project-section section-padding">
         <div className="container-fluid">
-          <div className="title">
+          {/* <div className="title">
             <h2 className="fade_bottom">Kategoriler</h2>
-          </div>
+          </div> */}
 
           <div className="project-wrap">
             <div className="project-card fade_bottom">
@@ -110,7 +110,7 @@ els.forEach((el) => {
 
               <img
                 alt="project-1"
-                srcSet="/oturma2.jpg"
+                srcSet="/oturma-grubu.png"
                 width={740}
                 height={560}
                 decoding="async"
@@ -119,7 +119,7 @@ els.forEach((el) => {
               />
               <img
                 alt="project-1"
-                srcSet="/oturma2.jpg"
+                srcSet="/oturma-grubu.png"
                 width={740}
                 height={560}
                 decoding="async"

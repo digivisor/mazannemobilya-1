@@ -281,7 +281,7 @@ export default function Page() {
                   <ChevronDown className="chev" size={18} />
                 </summary>
                 <div className="faq-body">
-                  Hazır ürünlerde <b>7–15 iş günü</b>, ölçüye özel üretimde <b>20–28 iş günü</b>.
+                  Hazır ürünlerde <b>21 iş günü</b>, ölçüye özel üretimde <b>40-45 iş günü</b>.
                   Antalya içi profesyonel montaj sağlanır.
                 </div>
               </details>

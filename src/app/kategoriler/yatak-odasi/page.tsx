@@ -251,7 +251,7 @@ export default function Page() {
           <div className="split-media">
             <img
               alt="Yatak odası gardırop ve ayna detayları"
-              src="/yatakodasi2.jpg"
+              src="/sifonyer.png"
               loading="lazy"
               decoding="async"
             />
@@ -290,7 +290,7 @@ export default function Page() {
                   <ChevronDown className="chev" size={18} />
                 </summary>
                 <div className="faq-body">
-                  Standart setlerde <b>7–15 iş günü</b>, ölçüye özel üretimde <b>20–28 iş günü</b>.
+                  Standart setlerde <b>21 iş günü</b>, ölçüye özel üretimde <b>40–45 iş günü</b>.
                   Antalya içi kurulum ekibimiz montajı gerçekleştirir; şehir dışı için opsiyon
                   sağlıyoruz.
                 </div>

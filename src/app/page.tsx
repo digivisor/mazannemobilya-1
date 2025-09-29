@@ -239,7 +239,7 @@ const [showVideo, setShowVideo] = useState(false);
       bg: "/banner2.jpg",
       title: (
         <>
-          Evinize Özel Tasarım,{" "}
+         Modern Tasarımlar,{" "}
           {/* <span>
             <img
               alt=""
@@ -473,7 +473,7 @@ const [showVideo, setShowVideo] = useState(false);
                   <div className="col-lg-5 col-md-6 col-6">
                     <div className="navbar-header">
                       <a className="navbar-brand" href="/">
-                        <img alt="Mazanne" src="/mazanneyazi2.png" decoding="async" loading="lazy" />
+                        <img alt="Mazanne" src="/mazanne-yatay.png" decoding="async" loading="lazy" />
                       </a>
                     </div>
                   </div>
@@ -818,8 +818,8 @@ const [showVideo, setShowVideo] = useState(false);
             <div className="image-1 poort-in-right">
               <img
                 alt=""
-                srcSet="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.d42d9936.jpg&w=750&q=75 1x, https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.d42d9936.jpg&w=1920&q=75 2x"
-                src="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.d42d9936.jpg&w=1920&q=75"
+                srcSet="/hakkimizda1.jpg 1x"
+                src="/hakkimizda1.jpg"
                 width="711" height="1037" decoding="async" loading="lazy" style={{ color: "transparent" }}
               />
             </div>
@@ -844,8 +844,8 @@ const [showVideo, setShowVideo] = useState(false);
           <div className="project-wrap">
             <div className="project-card fade_bottom">
               <a href="/kategoriler/oturma-grubu">
-              <img alt="project-1" src="/oturma2.jpg" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
-              <img alt="project-1" src="/oturma2.jpg" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
+              <img alt="project-1" src="/oturma-grubu.png" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
+              <img alt="project-1" src="/oturma-grubu.png" width={740} height={560} decoding="async" loading="lazy" style={{ color: "transparent" }} />
               <div className="content">
                 <h2><a href="/kategoriler/oturma-grubu">Oturma Grubu</a></h2>
                 <span>Konfor ve akış için yerleşim, kumaş & renk önerileri.</span>
@@ -916,7 +916,7 @@ const [showVideo, setShowVideo] = useState(false);
             </div>
             <div className="content">
               <h2 className="fade_bottom">İz Bırakan Mekânlar, Planla Başlar</h2>
-              <p className="fade_bottom service-lead">Keşiften montaja tüm süreci planlar; ölçüye uygun tasarım, doğru malzeme ve özenli işçilikle uzun ömürlü konfor sunarız.</p>
+              <p className="fade_bottom service-lead">Tasarım aşamasından montaja tüm süreci planlar; ölçüye uygun tasarım, doğru malzeme ve özenli işçilikle uzun ömürlü konfor sunarız.</p>
             </div>
           </div>
 
@@ -962,8 +962,8 @@ const [showVideo, setShowVideo] = useState(false);
                       <path d="M6 14v-2a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v2" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                     </svg>
                   </div>
-                  <h2><a>İç Mekân Tasarımı</a></h2>
-                  <p>Fonksiyonel yerleşim, renk/tekstil paleti ve aydınlatma planı; bütçenize uygun stil önerileri.</p>
+                  <h2><a>Konfor & Dayanıklılık</a></h2>
+                  <p>Uzun ömürlü malzemeler, sağlam işçilik ve yıllara meydan okuyan tasarımlar.</p>
                 </div>
               </div>
 
@@ -976,7 +976,7 @@ const [showVideo, setShowVideo] = useState(false);
                     </svg>
                   </div>
                   <h2><a>Tasarım &amp; Planlama</a></h2>
-                  <p>Keşif ve ölçülendirme, üretim–teslim planı, montaj koordinasyonu ve garanti takibi.</p>
+                  <p>Doğru ölçülendirme, sorunsuz teslim planı, eksiksiz montaj koordinasyonu ve garanti güvencesi.</p>
                 </div>
               </div>
             </div>

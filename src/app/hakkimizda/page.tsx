@@ -165,7 +165,7 @@ const [showVideo, setShowVideo] = useState(false);
   const faq = [
     {
       q: "Teslim süresi nedir?",
-      a: "Stok ürünlerde 3–7 gün, özel üretimlerde proje kapsamına göre ortalama 2–4 hafta içinde teslim ediyoruz.",
+      a: "Stok ürünlerde 21 gün, özel üretimlerde proje kapsamına göre ortalama 45 iş günü içinde teslim ediyoruz.",
     },
     {
       q: "Özel ölçü yapıyor musunuz?",
@@ -485,7 +485,7 @@ const [showVideo, setShowVideo] = useState(false);
           <div className="process-wrap">
             <div className="step-card fade_bottom">
               <div className="step-badge">1</div>
-              <h3>Keşif &amp; Brief</h3>
+              <h3>İlk Adım</h3>
               <p>İhtiyaç ve beklentileri birlikte analiz ediyor, mekânı ve alışkanlıkları tanıyoruz.</p>
             </div>
 

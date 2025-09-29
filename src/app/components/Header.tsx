@@ -88,7 +88,7 @@ export default function Header() {
                     <div className={`mobileMenu ${mobileOpen ? "open" : ""}`}>
                       {/* Drawer Header */}
                       <div className="menu-head">
-                        <img src="/mazanneyazi3.png" alt="Mazanne" height={28} />
+                        <img src="/mazanne-yatak.png" alt="Mazanne" height={28} />
                       </div>
 
                       {/* NAV */}
@@ -177,13 +177,13 @@ export default function Header() {
                   <a className="navbar-brand" href="/">
                     <img
                       alt="Mazanne"
-                      srcSet="/mazanneyazi3.png 1x, /mazanneyazi3.png 2x"
-                      src="/mazanneyazi3.png"
-                      width={130}
-                      height={65}
+                      srcSet="/mazanne-yatay.png 1x, /mazanne-yatay.png 2x"
+                      src="/mazanne-yatay.png"
+                      width={170}
+                      height={85}
                       decoding="async"
                       loading="lazy"
-                      style={{ color: "transparent" }}
+                      style={{ filter: "invert(1)" }}
                     />
                   </a>
                 </div>

@@ -279,7 +279,7 @@ export default function Page() {
                   <ChevronDown className="chev" size={18} />
                 </summary>
                 <div className="faq-body">
-                  Standart ölçülerde 7–15 iş günü, ölçüye özel üretimlerde 20–28 iş günü sürer.
+                 Standart ölçülerde teslimat süresi 21 iş günüdür, ölçüye özel üretimlerde ise süre 45 iş gününe kadar uzayabilir.
                   Antalya içi kurulum ücretsizdir.
                 </div>
               </details>
