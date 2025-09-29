@@ -61,7 +61,7 @@ export default function Footer() {
                 <div className="widget-title"><h3>İletişim</h3></div>
                 <ul>
                   <li>mazannemobilya@gmail.com</li>
-                  <li>+90 501 570 01 41</li>
+                  <li>+90 501 660 01 21</li>
                   <li>Yükseliş, Mehmet Akif Cd. No:88/1,</li>
                   <li>07025 Kepez/Antalya</li>
                 </ul>

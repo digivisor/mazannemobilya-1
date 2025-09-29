@@ -50,8 +50,8 @@ export default function Header() {
             <div className="col-lg-8 col-md-8 col-12">
               <ul className="contact-info">
                 <li>
-                  <a href="tel:+90 501 570 01 41">
-                    Numara:<span> +90 501 570 01 41</span>
+                  <a href="tel:+90 501 660 01 21">
+                    Numara:<span> +90 501 660 01 21</span>
                   </a>
                 </li>
                 <li>
