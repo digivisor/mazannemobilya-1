@@ -772,7 +772,7 @@ const [showVideo, setShowVideo] = useState(false);
       <section id="about" className="wpo-about-section section-padding pb-0">
         <div className="about-wrap">
           <div className="content">
-            <h2 className="scroll-text-animation" data-animation="fade_from_right">Mazanne Hakkında</h2>
+            <h2 className="scroll-text-animation" data-animation="fade_from_right" style={{ textAlign: "left" }}>Mazanne Hakkında</h2>
             <p className="fade_bottom" style={{ fontFamily: "'Poppins', sans-serif", fontSize: 15 }}>
               Mazanne Mobilya’da her parça; zamansız çizgiler, sağlam malzemeler ve özenli işçilikle hayat bulur. Yaşam
               alanlarını yalnızca güzelleştiren değil, yıllarca konfor sunan mobilyalar tasarlıyoruz. Ölçünüze ve tarzınıza
@@ -808,36 +808,36 @@ const [showVideo, setShowVideo] = useState(false);
               </div>
             </div>
 
-            <div className="about-funfact fade_bottom" style={{ marginTop: 200 }}>
+            {/* <div className="about-funfact fade_bottom" style={{ marginTop: 200 }}>
               <h3><span><span>10</span></span><span className="icon">+</span></h3>
               <h4>Yıllık<br /> Deneyim</h4>
-            </div>
+            </div> */}
           </div>
 
           <div className="image">
             <div className="image-1 poort-in-right">
               <img
                 alt=""
-                srcSet="/hakkimizda1.jpg 1x"
-                src="/hakkimizda1.jpg"
+                srcSet="/drone.jpg 1x"
+                src="/drone.jpg"
                 width="711" height="1037" decoding="async" loading="lazy" style={{ color: "transparent" }}
               />
             </div>
 
-            <div className="image-2 poort-in-right">
+            {/* <div className="image-2 poort-in-right">
               <img
                 alt=""
                 srcSet="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.8c675d9e.jpg&w=640&q=75 1x, https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.8c675d9e.jpg&w=1920&q=75 2x"
                 src="https://bliize-next.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.8c675d9e.jpg&w=1920&q=75"
                 width="620" height="700" decoding="async" loading="lazy" style={{ color: "transparent" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* PROJECTS (Kategoriler kartları) */}
-      <section className="wpo-project-section section-padding">
+      <section className="wpo-project-section section-padding" style={{ paddingTop: "60px" }}>
         <div className="container-fulid">
           <div className="title"><h2 className="fade_bottom">Kategoriler</h2></div>
 
@@ -1037,7 +1037,6 @@ const [showVideo, setShowVideo] = useState(false);
         src="/mazanne.mp4"
         autoPlay
         playsInline
-        controls
         controlsList="nodownload noplaybackrate nofullscreen"
         disablePictureInPicture
       />
