@@ -28,6 +28,33 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileCatsOpen, setMobileCatsOpen] = useState(false);
   const [mobileComplementOpen, setMobileComplementOpen] = useState(false);
+  // Dinamik nav kaydırma: gerçek geometrik merkeze göre hizalama
+  useEffect(() => {
+    function adjustNavShift() {
+      const navWrapper = document.querySelector('.nav-center') as HTMLElement | null;
+      const list = document.querySelector('.nav-center #navbar .nav.navbar-nav') as HTMLElement | null;
+      const container = document.querySelector('.header-flex') as HTMLElement | null;
+      if (!navWrapper || !list || !container) return;
+      if (window.innerWidth < 992) {
+        list.style.removeProperty('--nav-shift');
+        list.style.transform = 'translateX(0)';
+        return;
+      }
+      const cRect = container.getBoundingClientRect();
+      const nRect = list.getBoundingClientRect();
+      const cCenter = cRect.left + cRect.width / 2;
+      const nCenter = nRect.left + nRect.width / 2;
+      const shift = cCenter - nCenter; // pozitifse sağa kaydır
+      list.style.setProperty('--nav-shift', shift.toFixed(2) + 'px');
+      list.style.transform = `translateX(var(--nav-shift))`;
+    }
+    const raf = () => requestAnimationFrame(adjustNavShift);
+    window.addEventListener('resize', raf);
+    // İlk yükleme + font / img sonrası
+    const t1 = setTimeout(adjustNavShift, 0);
+    const t2 = setTimeout(adjustNavShift, 350);
+    return () => { window.removeEventListener('resize', raf); clearTimeout(t1); clearTimeout(t2); };
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -79,7 +106,7 @@ export default function Header() {
       <div className="wpo-site-header wpo-header-style-s11">
         <nav className="navigation navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            <div className="row align-items-center g-0">
+            <div className="row align-items-center g-0 header-flex">
               {/* Mobile: hamburger */}
               <div className="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
                 <div className="mobail-menu">
@@ -171,8 +198,8 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Logo */}
-              <div className="col-lg-2 col-md-4 col-6">
+              {/* Logo (flex düzen için etiketlendi) */}
+              <div className="col-lg-3 col-md-4 col-6 col-logo">
                 <div className="navbar-header">
                   <a className="navbar-brand" href="/">
                     <img
@@ -189,8 +216,8 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Desktop Menu */}
-              <div className="col-lg-7 col-md-1 col-1">
+              {/* Desktop Menu (flex merkez alan) */}
+              <div className="col-lg-6 col-md-1 col-1 nav-center">
                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                   <button className="menu-close" onClick={() => setMobileOpen(false)} aria-label="Kapat">
                     <X size={18} />
@@ -235,8 +262,8 @@ export default function Header() {
                 </div>
               </div>
 
-              {/* Search + CTA */}
-              <div className="col-lg-3 col-md-4 col-2">
+              {/* Search + CTA (etiketlendi) */}
+              <div className="col-lg-3 col-md-4 col-2 col-cta">
                 <div className="header-right">
                   <div className="header-search-form-wrapper">
                     <div className="cart-search-contact">
@@ -384,6 +411,19 @@ export default function Header() {
           -webkit-tap-highlight-color: transparent;
         }
         @supports (overflow-x: clip){ html, body{ overflow-x:clip; } }
+
+        /* === Desktop nav gerçek ortalama (logo & CTA arasında tam merkez) === */
+        @media (min-width: 992px){
+          .header-flex{ display:flex; align-items:center; width:100%; }
+          .header-flex > .col-logo,
+          .header-flex > .col-cta{ flex:0 0 auto; width:auto !important; max-width:none; }
+          .header-flex > .nav-center{ flex:1 1 auto; width:auto !important; max-width:none; display:flex; }
+          .header-flex > .nav-center #navbar{ flex:1 1 auto; display:flex; }
+          .header-flex > .nav-center #navbar .nav.navbar-nav{ margin:0 auto; padding:0; display:flex; gap:24px; transform:translateX(var(--nav-shift, 0)); transition:transform .25s ease; }
+        }
+        @media (max-width: 991.98px){
+          .nav-center #navbar .nav.navbar-nav { justify-content:flex-start; gap:16px; }
+        }
       `}</style>
     </header>
   );
