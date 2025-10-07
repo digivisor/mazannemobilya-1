@@ -1,0 +1,30 @@
+[
+  {
+    "author": "Mazanne Müşteri",
+    "profile_photo_url": "/mazannelogo.png",
+    "rating": 5,
+    "text": "Ürünler kaliteli, teslimat zamanında. Çok memnun kaldık.",
+    "time": "2 hafta önce"
+  },
+  {
+    "author": "Sena K.",
+    "profile_photo_url": "/instagram1.jpg",
+    "rating": 5,
+    "text": "Mağazada ilgi çok güzel, fiyat/performans başarılı.",
+    "time": "1 ay önce"
+  },
+  {
+    "author": "Emre Y.",
+    "profile_photo_url": "/instagram2.jpg",
+    "rating": 4,
+    "text": "Kurulum hızlıydı, ufak bir detay için hemen destek sağladılar.",
+    "time": "3 hafta önce"
+  },
+  {
+    "author": "Elif T.",
+    "profile_photo_url": "/instagram3.jpg",
+    "rating": 5,
+    "text": "Yemek odası takımından çok memnunuz, tavsiye ederim.",
+    "time": "5 gün önce"
+  }
+]

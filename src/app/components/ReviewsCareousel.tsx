@@ -40,7 +40,7 @@ export type ReviewItem = {
 
 export function ReviewsCarousel({
   title = "Ne Dediler?",
-  limit = 6,
+  limit = 20,
   autoPlay = true,
   interval = 4000, // 4 sn
 }: {
@@ -154,8 +154,13 @@ export function ReviewsCarousel({
                   </div>
                   <header className="top">
                     <img
-                      src={rv.profile_photo_url || "https://i.pravatar.cc/120?img=13"}
-                      alt={rv.author} width={56} height={56} loading="lazy" decoding="async" />
+                      src={rv.profile_photo_url && rv.profile_photo_url.trim() ? rv.profile_photo_url : "https://i.pravatar.cc/120?img=13"}
+                      alt={rv.author}
+                      width={56}
+                      height={56}
+                      loading="lazy"
+                      decoding="async"
+                    />
                     <div className="meta">
                       <strong className="author">{rv.author}</strong>
                       <span className="time">{rv.time || ""}</span>
